@@ -1,0 +1,204 @@
+{
+  "PrinterLog": [
+    {
+      "Time": "20241025115816",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12345",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025115830",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12346",
+      "DocumentStatus": "FAILED",
+      "Error": "PaperJam"
+    },
+    {
+      "Time": "20241025115845",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12347",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025115900",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12348",
+      "DocumentStatus": "FAILED",
+      "Error": "Offline"
+    },
+    {
+      "Time": "20241025115915",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12349",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025115930",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ERROR",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12350",
+      "DocumentStatus": "FAILED",
+      "Error": "ConnectError"
+    },
+    {
+      "Time": "20241025115945",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12351",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116000",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12352",
+      "DocumentStatus": "FAILED",
+      "Error": "ConnectError"
+    },
+    {
+      "Time": "20241025116015",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12353",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116030",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12354",
+      "DocumentStatus": "FAILED",
+      "Error": "PaperJam"
+    },
+    {
+      "Time": "20241025116045",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12355",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116100",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ERROR",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12356",
+      "DocumentStatus": "FAILED",
+      "Error": "ConnectError"
+    },
+    {
+      "Time": "20241025116115",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12357",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116130",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12358",
+      "DocumentStatus": "FAILED",
+      "Error": "PaperEnd"
+    },
+    {
+      "Time": "20241025116145",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12359",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116200",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ERROR",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12360",
+      "DocumentStatus": "FAILED",
+      "Error": "ConnectError"
+    },
+    {
+      "Time": "20241025116215",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "FULL",
+      "DocumentID": "DOC12361",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116230",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12362",
+      "DocumentStatus": "FAILED",
+      "Error": "PaperJam"
+    },
+    {
+      "Time": "20241025116245",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "ONLINE",
+      "PaperStatus": "NEAREND",
+      "DocumentID": "DOC12363",
+      "DocumentStatus": "SUCCESSFUL",
+      "Error": "Normal"
+    },
+    {
+      "Time": "20241025116300",
+      "PrinterID": "KPD1GH01",
+      "PrinterModel": "FTP-639",
+      "PrinterStatus": "OFFLINE",
+      "PaperStatus": "OUT",
+      "DocumentID": "DOC12364",
+      "DocumentStatus": "FAILED",
+      "Error": "Offline"
+    }
+  ]
+}

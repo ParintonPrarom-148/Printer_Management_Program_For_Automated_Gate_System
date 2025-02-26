@@ -1,7 +1,6 @@
-from PyQt6.QtWidgets import QWidget, QTextEdit,QPushButton
+from PyQt6.QtWidgets import QWidget, QTextEdit, QPushButton
 from PyQt6 import uic
 import json
-from datetime import datetime
 
 class Ui_LogFile(QWidget):
     def __init__(self):
@@ -30,14 +29,29 @@ class Ui_LogFile(QWidget):
                     printer_log_data = data['PrinterLog']
                     log_content = ""
 
+                    # เพิ่ม Header ของแต่ละคอลัมน์ รวมทั้ง PrinterID และ PrinterModel
+                    header = (f"{'Time'.ljust(14)} | {'PrinterID'.ljust(12)} | {'PrinterModel'.ljust(12)} | "
+                              f"{'DocumentID'.ljust(10)} | {'DocumentStatus'.ljust(15)} | {'PrinterStatus'.ljust(12)} | "
+                              f"{'PaperStatus'.ljust(12)} | {'Error'.ljust(12)}")
+                    log_content += header + "\n"
+                    log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่งระหว่าง Header และข้อมูล
+
                     # Loop ผ่านข้อมูล log ทั้งหมด
                     for entry in printer_log_data:
-                        # แปลงเวลาจาก "2025-02-24 10:00" เป็น "7/1/2024 12:09:03 PM"
-                        time = datetime.strptime(entry['Time'], '%Y-%m-%d %H:%M')
-                        formatted_time = time.strftime('%m/%d/%Y %I:%M:%S %p')
-                        
-                        # สร้างข้อความในรูปแบบที่ต้องการ
-                        log_content += f"{formatted_time} | {entry['Document ID']} | {entry['Document Status']} | {entry['Printer Status']} | {entry['Paper Status']} | {entry['Error']}\n"
+                        # ดึงข้อมูลจาก JSON ทุกตัวแปร
+                        time_str = entry.get('Time', 'No Time')
+                        printer_id = entry.get('PrinterID', 'No PrinterID')
+                        printer_model = entry.get('PrinterModel', 'No PrinterModel')
+                        document_id = entry.get('DocumentID', 'No DocumentID')
+                        document_status = entry.get('DocumentStatus', 'No DocumentStatus')
+                        printer_status = entry.get('PrinterStatus', 'No PrinterStatus')
+                        paper_status = entry.get('PaperStatus', 'No PaperStatus')
+                        error = entry.get('Error', 'No Error')
+
+                        # สร้างข้อความในรูปแบบที่ต้องการ (ใช้ .ljust() เพื่อจัดระเบียบคอลัมน์)
+                        log_content += (f"{time_str.ljust(14)} | {printer_id.ljust(12)} | {printer_model.ljust(12)} | "
+                                        f"{document_id.ljust(10)} | {document_status.ljust(15)} | {printer_status.ljust(12)} | "
+                                        f"{paper_status.ljust(12)} | {error.ljust(12)}\n")
                     
                     # แสดงข้อมูลที่ได้ใน textLogfile
                     self.textLogfile.setText(log_content)

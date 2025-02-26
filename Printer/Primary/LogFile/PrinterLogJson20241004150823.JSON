@@ -78,7 +78,7 @@
       "PaperStatus": "OUT",
       "DocumentID": "DOC12352",
       "DocumentStatus": "FAILED",
-      "Error": "ConnectError"
+      "Error": "PaperEnd"
     },
     {
       "Time": "20241025116015",
@@ -98,7 +98,7 @@
       "PaperStatus": "OUT",
       "DocumentID": "DOC12354",
       "DocumentStatus": "FAILED",
-      "Error": "PaperJam"
+      "Error": "ConnectError"
     },
     {
       "Time": "20241025116045",
@@ -138,7 +138,7 @@
       "PaperStatus": "OUT",
       "DocumentID": "DOC12358",
       "DocumentStatus": "FAILED",
-      "Error": "PaperEnd"
+      "Error": "PaperJam"
     },
     {
       "Time": "20241025116145",

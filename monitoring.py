@@ -11,8 +11,9 @@ class Ui_Monitoring(QWidget):
         self.show_primary_table()
         self.show_primary_table()
         self.show_primary_table()
-        elf.show_primary_table()
         self.show_primary_table()
+        self.show_primary_table()
+
         # เชื่อม QToolButton ที่ชื่อ btnmenu
         self.btnmenu = self.findChild(QToolButton, 'btnmenu')
 

@@ -10,6 +10,7 @@ class Ui_Monitoring(QWidget):
         uic.loadUi('Designer/monitoring.ui', self)  # เปลี่ยนให้เป็นพาธไฟล์ .ui ของคุณ
         self.show_primary_table()
         self.show_primary_table()
+        self.show_primary_table()
 
         # เชื่อม QToolButton ที่ชื่อ btnmenu
         self.btnmenu = self.findChild(QToolButton, 'btnmenu')

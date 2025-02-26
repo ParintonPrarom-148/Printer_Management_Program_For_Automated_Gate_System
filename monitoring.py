@@ -1,4 +1,4 @@
-import sys
+import sys #เทส
 import json
 from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidgetItem, QPushButton, QWidget, QToolButton, QMenu, QStackedWidget, QLabel
 from PyQt6 import uic

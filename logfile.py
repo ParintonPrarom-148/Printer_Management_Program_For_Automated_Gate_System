@@ -9,6 +9,7 @@ class Ui_LogFile(QWidget):
         self.textLogfile = self.findChild(QTextEdit, 'textLogfile')
         self.btnBack = self.findChild(QPushButton, 'btnBack')
         self.btnBack.clicked.connect(self.on_monitoring_selected)
+        
         # ตรวจสอบว่า textLogfile ถูกโหลดเรียบร้อยหรือไม่
         if self.textLogfile is None:
             print("Error: textLogfile widget not found.")
@@ -29,22 +30,16 @@ class Ui_LogFile(QWidget):
                     printer_log_data = data['PrinterLog']
                     log_content = ""
 
-                    column_widths = [24, 16, 15, 10, 15, 12, 12, 12]  # กำหนดความกว้างของแต่ละคอลัมน์
-                    columns = ["Time", "PrinterID", "PrinterModel", "DocumentID", "DocumentStatus", "PrinterStatus", "PaperStatus", "Error"]
-
-                    # สร้าง Header โดยใช้ f-string และความกว้างที่กำหนด
-                    header = " | ".join(f"{col:<{w}}" for col, w in zip(columns, column_widths))
-
-                    # สร้างเส้นคั่นที่มีความยาวเท่ากับ Header
-                    separator = "-" * len(header)
-
-                    # เพิ่ม Header และเส้นคั่นลงใน log_content
+                    # เพิ่ม Header ของแต่ละคอลัมน์ รวมทั้ง PrinterID และ PrinterModel
+                    header = (f"{'Time'.ljust(14)} | {'PrinterID'.ljust(12)} | {'PrinterModel'.ljust(12)} | "
+                              f"{'DocumentID'.ljust(10)} | {'DocumentStatus'.ljust(15)} | {'PrinterStatus'.ljust(12)} | "
+                              f"{'PaperStatus'.ljust(12)} | {'Error'.ljust(12)}")
                     log_content += header + "\n"
-                    log_content += separator + "\n"
+                    log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่งระหว่าง Header และข้อมูล
 
                     # Loop ผ่านข้อมูล log ทั้งหมด
                     for entry in printer_log_data:
-                        # ดึงข้อมูลจาก JSON ทุกตัวแปร และใช้ค่าเริ่มต้นหากไม่มีข้อมูล
+                        # ดึงข้อมูลจาก JSON ทุกตัวแปร
                         time_str = entry.get('Time', 'No Time')
                         printer_id = entry.get('PrinterID', 'No PrinterID')
                         printer_model = entry.get('PrinterModel', 'No PrinterModel')
@@ -54,9 +49,10 @@ class Ui_LogFile(QWidget):
                         paper_status = entry.get('PaperStatus', 'No PaperStatus')
                         error = entry.get('Error', 'No Error')
 
-                        # ใช้ column_widths เดียวกับ Header เพื่อให้ตรงกัน
-                        log_content += " | ".join(f"{val:<{w}}" for val, w in zip(
-                        [time_str, printer_id, printer_model, document_id, document_status, printer_status, paper_status, error], column_widths)) + "\n"
+                        # สร้างข้อความในรูปแบบที่ต้องการ (ใช้ .ljust() เพื่อจัดระเบียบคอลัมน์)
+                        log_content += (f"{time_str.ljust(14)} | {printer_id.ljust(12)} | {printer_model.ljust(12)} | "
+                                        f"{document_id.ljust(10)} | {document_status.ljust(15)} | {printer_status.ljust(12)} | "
+                                        f"{paper_status.ljust(12)} | {error.ljust(12)}\n")
                     
                     # แสดงข้อมูลที่ได้ใน textLogfile
                     self.textLogfile.setText(log_content)

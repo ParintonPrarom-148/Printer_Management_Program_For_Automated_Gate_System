@@ -8,7 +8,8 @@ import time
 import schedule
 import requests
 import json
-
+from dotenv import load_dotenv
+load_dotenv()
 logger = logging.getLogger(__name__)
 
 class PrinterStruct(ctypes.Structure):
@@ -42,6 +43,7 @@ class PrinterStatusStruct(ctypes.Structure):
 class printerStatus1:
     
     def __init__(self, work_dir):
+        self.running = True  # ใช้ควบคุม Thread
         hostname=socket.gethostname()
         self.IPAddr=socket.gethostbyname(hostname)
 
@@ -56,10 +58,14 @@ class printerStatus1:
             }
         
         self.previuos_status = {}
-        self.dll_path = os.path.join(work_dir, "CuCustomWndAPI.dll")
+        # ปรับเส้นทางของ dll_path ให้ถูกต้อง
+        self.dll_path = os.path.join(work_dir, "python_printer_status", "CuCustomWndAPI.dll")
+
 
         schedule.every(int(os.getenv("POST_PRINTER_STATUS_SECOND_INTERVAL"))).seconds.do(self.post)
-        Thread(target=self.check_status, args=()).start()
+        # สร้าง Thread และตั้งค่า daemon=True เพื่อให้ปิดเมื่อโปรแกรมหลักปิด
+        self.thread = Thread(target=self.check_status, daemon=True)
+        self.thread.start()
 
     def enumusbdevice(self):
 
@@ -100,7 +106,8 @@ class printerStatus1:
         get_printer_status="unavailable"
         get_paperEndStatus="None"
         get_paperJamStatus="None"
-        while True:
+       
+        while True and self.running:
             schedule.run_pending()
             try:
                 normal_status =True
@@ -224,12 +231,75 @@ class printerStatus1:
         except Exception:
             logger.exception("Posting to status server eror")
 
+    def get_status(self):
+        return self.current_status
+
     def savejsonstatus(self):
+        # โหลดค่าที่อยู่ของ Printer โดยตรงในฟังก์ชันนี้
+        config_path = os.path.abspath(os.getenv('KIOSK_LOGFILE_LOCATION'))  # ถ้าไม่พบค่าใช้ค่า default
+        target_model = "VKP80III"
+
+        with open(config_path, "r", encoding="utf-8") as config_file:
+            config_data = json.load(config_file)
+
+        # ค้นหา PrinterSetup ที่มี PrinterModel ตรงกับ target_model
+        printer_location = "Printer/DefaultPrinter"
+        for key in config_data:
+            if key.startswith("PrinterSetup"):
+                for printer in config_data[key]:
+                    if printer.get("PrinterModel") == target_model:
+                        printer_location = printer.get("LocationFilePrinter", printer_location)
+
         # แปลงข้อมูล JSON เป็น String
         json_data = json.dumps(self.current_status, indent=4, ensure_ascii=False)
-        file_path = "logstatusprint/printer_status1.json"
-        # บันทึกลงไฟล์
-        with open(file_path, "w", encoding="utf-8") as json_file:
-            json_file.write(json_data)
+
+        # สร้าง timestamp สำหรับชื่อโฟลเดอร์ (แค่วันที่เท่านั้น)
+        timestampfolder = datetime.now().strftime("%Y%m%d")  # ใช้แค่ปี-เดือน-วัน
+        # สร้าง timestamp สำหรับชื่อไฟล์ (แค่ชั่วโมง)
+        timestampfile = datetime.now().strftime("%Y%m%d%H")  # ใช้แค่ปี-เดือน-วัน-ชั่วโมง
+
+        # สร้าง path ให้ถูกต้อง
+        folder_path = os.path.join(printer_location, "Status", timestampfolder)  # ใช้ path ตามที่ต้องการ
+        file_path = os.path.join(folder_path, f"PrinterStatusJson{timestampfile}.json")
+
+        # Debug ดู path ว่าถูกต้องไหม
+        print(f"Folder Path: {folder_path}")
+        print(f"File Path: {file_path}")
+
+        # ตรวจสอบว่าโฟลเดอร์ "Status" และ "timestampfolder" มีอยู่หรือไม่ ถ้าไม่ให้สร้าง
+        try:
+            os.makedirs(folder_path, exist_ok=True)  # สร้างโฟลเดอร์หากไม่มี
+            print("Folder created successfully.")
+        except Exception as e:
+            print(f"Error creating folder: {e}")
+            return  # หยุดทำงานถ้าสร้างโฟลเดอร์ไม่ได้
+
+        # บันทึกข้อมูลลงในไฟล์
+        try:
+            # เช็กว่ามีไฟล์ที่ตรงกับ timestamp ของชั่วโมงนั้นๆ อยู่หรือไม่
+            if os.path.exists(file_path):
+                # ถ้ามีไฟล์แล้ว ให้เปิดไฟล์และเพิ่มข้อมูลเข้าไป
+                with open(file_path, "r+", encoding="utf-8") as json_file:
+                    existing_data = json.load(json_file)
+                    # เพิ่มข้อมูลใหม่เข้าไปในไฟล์
+                    existing_data.append(self.current_status)
+                    # กลับไปเขียนไฟล์ด้วยข้อมูลใหม่
+                    json_file.seek(0)
+                    json.dump(existing_data, json_file, indent=4, ensure_ascii=False)
+                print("Data added to existing file.")
+            else:
+                # ถ้าไม่มีไฟล์ ให้สร้างไฟล์ใหม่
+                with open(file_path, "w", encoding="utf-8") as json_file:
+                    # บันทึกข้อมูลใหม่ในไฟล์
+                    json.dump([self.current_status], json_file, indent=4, ensure_ascii=False)
+                print("New file created and data saved.")
+        except Exception as e:
+            print(f"Error saving file: {e}")
+
+
+
+
+
+
 # 1st byte: 18 - offline
 # 2nd byte: 28 - cutter error/ hardware error --> paper jam

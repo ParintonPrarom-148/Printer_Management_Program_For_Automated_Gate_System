@@ -20,9 +20,9 @@
   <widget class="QLabel" name="lbPaperStatus">
    <property name="geometry">
     <rect>
-     <x>760</x>
+     <x>770</x>
      <y>80</y>
-     <width>151</width>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
@@ -35,13 +35,13 @@
     </font>
    </property>
    <property name="text">
-    <string>Paper Status :</string>
+    <string>PaperEnd Status :</string>
    </property>
   </widget>
   <widget class="QLabel" name="lbPrinterStatus">
    <property name="geometry">
     <rect>
-     <x>520</x>
+     <x>390</x>
      <y>80</y>
      <width>151</width>
      <height>21</height>
@@ -62,10 +62,10 @@
   <widget class="QStackedWidget" name="stackedWidget">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>150</y>
-     <width>1031</width>
-     <height>571</height>
+     <x>270</x>
+     <y>340</y>
+     <width>791</width>
+     <height>321</height>
     </rect>
    </property>
    <property name="font">
@@ -282,8 +282,8 @@
     <widget class="QPushButton" name="btnLogFilePrimary">
      <property name="geometry">
       <rect>
-       <x>950</x>
-       <y>530</y>
+       <x>710</x>
+       <y>270</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -522,8 +522,8 @@ color:white;</string>
     <widget class="QPushButton" name="btnLogFileSecondary">
      <property name="geometry">
       <rect>
-       <x>950</x>
-       <y>530</y>
+       <x>710</x>
+       <y>270</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -549,7 +549,7 @@ color:white;</string>
   <widget class="QLabel" name="lbLocation">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>150</x>
      <y>80</y>
      <width>101</width>
      <height>21</height>
@@ -616,10 +616,10 @@ color:white;</string>
   <widget class="QLabel" name="PrinterStatus">
    <property name="geometry">
     <rect>
-     <x>680</x>
+     <x>540</x>
      <y>80</y>
-     <width>71</width>
-     <height>21</height>
+     <width>231</width>
+     <height>25</height>
     </rect>
    </property>
    <property name="font">
@@ -630,12 +630,15 @@ color:white;</string>
    <property name="text">
     <string>-</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnShowSecondaryTable">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>130</y>
+     <x>340</x>
+     <y>320</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -652,13 +655,13 @@ color:white;</string>
     <string>Secondary</string>
    </property>
   </widget>
-  <widget class="QLabel" name="PaperStatus">
+  <widget class="QLabel" name="PaperEndStatus">
    <property name="geometry">
     <rect>
-     <x>910</x>
+     <x>980</x>
      <y>80</y>
-     <width>71</width>
-     <height>21</height>
+     <width>201</width>
+     <height>25</height>
     </rect>
    </property>
    <property name="font">
@@ -669,12 +672,15 @@ color:white;</string>
    <property name="text">
     <string>-</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnShowPrimaryTable">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>130</y>
+     <x>270</x>
+     <y>320</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -700,10 +706,10 @@ color:white;</string>
   <widget class="QLabel" name="Location">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>250</x>
      <y>80</y>
-     <width>81</width>
-     <height>21</height>
+     <width>110</width>
+     <height>25</height>
     </rect>
    </property>
    <property name="font">
@@ -713,6 +719,9 @@ color:white;</string>
    </property>
    <property name="text">
     <string>-</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="lbPrinterManagementMonitoring_2">
@@ -739,17 +748,149 @@ color:white;</string>
     <string> PRINTER MANAGEMENT - MONITORING</string>
    </property>
   </widget>
+  <widget class="QLabel" name="lbPrinterModel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Printer Model :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PrinterModel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>140</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbOnlineStatus">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>140</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Online Status :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbPaperJamStatus">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>140</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>PaperJam Status :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="OnlineStatus">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>140</y>
+     <width>231</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PaperJamStatus">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>140</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <zorder>lbPaperStatus</zorder>
   <zorder>lbPrinterStatus</zorder>
   <zorder>stackedWidget</zorder>
   <zorder>lbLocation</zorder>
   <zorder>bgPrinterManagementMonitoring</zorder>
   <zorder>PrinterStatus</zorder>
-  <zorder>PaperStatus</zorder>
+  <zorder>PaperEndStatus</zorder>
   <zorder>btnShowPrimaryTable</zorder>
   <zorder>Location</zorder>
   <zorder>lbPrinterManagementMonitoring_2</zorder>
   <zorder>btnShowSecondaryTable</zorder>
+  <zorder>lbPrinterModel</zorder>
+  <zorder>PrinterModel</zorder>
+  <zorder>lbOnlineStatus</zorder>
+  <zorder>lbPaperJamStatus</zorder>
+  <zorder>OnlineStatus</zorder>
+  <zorder>PaperJamStatus</zorder>
  </widget>
  <resources/>
  <connections/>

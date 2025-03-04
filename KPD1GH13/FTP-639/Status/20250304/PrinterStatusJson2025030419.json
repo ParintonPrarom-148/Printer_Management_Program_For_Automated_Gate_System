@@ -1,0 +1,227 @@
+[
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:25:27.817"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:27:52.527"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:44.554"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:45.626"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:46.639"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:47.651"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:48.664"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:49.679"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:50.692"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:51.707"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:52.720"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:53.734"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "unavailable",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-04 19:28:54.748"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:28:55.760"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:28:56.774"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:28:57.787"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:28:58.800"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:28:59.813"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:00.827"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:01.841"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:12.815"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:13.888"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:14.904"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:15.919"
+    },
+    {
+        "printerId": "42342",
+        "printerStatus": "available",
+        "senderIp": "192.168.1.124",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-04 19:29:16.934"
+    }
+]

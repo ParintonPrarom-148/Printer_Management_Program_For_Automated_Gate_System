@@ -122,37 +122,7 @@ color:white;</string>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="8" column="1">
-     <widget class="QLineEdit" name="textRemark"/>
-    </item>
-    <item row="6" column="1">
-     <widget class="QLineEdit" name="textURLWebService"/>
-    </item>
-    <item row="7" column="1">
-     <widget class="QLineEdit" name="textPrinterLogFileName"/>
-    </item>
-    <item row="5" column="1">
-     <widget class="QLineEdit" name="textKioskLocationLogFile"/>
-    </item>
-    <item row="4" column="1">
-     <widget class="QLineEdit" name="textSetTimeSendLog"/>
-    </item>
-    <item row="6" column="0">
-     <widget class="QLabel" name="lbURLWebService">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>URL Web Service :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0">
+    <item row="10" column="0">
      <widget class="QLabel" name="lbRemark">
       <property name="font">
        <font>
@@ -165,10 +135,13 @@ color:white;</string>
       <property name="text">
        <string>Remark :</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </item>
-    <item row="7" column="0">
-     <widget class="QLabel" name="lbPrinterLogFileName">
+    <item row="6" column="0">
+     <widget class="QLabel" name="lbKioskLogFileLocation">
       <property name="font">
        <font>
         <family>Arial</family>
@@ -178,41 +151,14 @@ color:white;</string>
        </font>
       </property>
       <property name="text">
-       <string>Printer Log File Name :</string>
+       <string>Kiosk  LogFile Location :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="textKioskIP"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="lbKioskIP">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>Kiosk IP :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="textGateLane"/>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="textLocation">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-       </font>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
+    <item row="9" column="0">
      <widget class="QLabel" name="lbSetTimeSendLog">
       <property name="font">
        <font>
@@ -225,12 +171,57 @@ color:white;</string>
       <property name="text">
        <string>SetTime Send Log :</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="textTerminal"/>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="textPrinterLogFileName"/>
     </item>
-    <item row="2" column="0">
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="textKioskLogFileLocation"/>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="textSetTimeSendLog"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lbPrinterLogFileName">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Printer LogFile Name :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="lbURLWebService">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>URL Web Service :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
      <widget class="QLabel" name="lbTerminal">
       <property name="font">
        <font>
@@ -243,24 +234,21 @@ color:white;</string>
       <property name="text">
        <string>Terminal :</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="lbKioskLocationLogFile">
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="textLocation">
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
        </font>
-      </property>
-      <property name="text">
-       <string>Kiosk Location Log File :</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="0">
+    <item row="2" column="0">
      <widget class="QLabel" name="lbLocation">
       <property name="font">
        <font>
@@ -273,7 +261,40 @@ color:white;</string>
       <property name="text">
        <string>Location :</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="textGateLane"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lbPrinterLogFileLocation">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Printer LogFile Location :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="textURLWebService"/>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="textRemark"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="textPrinterLogFileLocation"/>
     </item>
     <item row="1" column="0">
      <widget class="QLabel" name="lbGateLane">
@@ -288,9 +309,68 @@ color:white;</string>
       <property name="text">
        <string>GateLane :</string>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="textTerminal"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="btnSelectPrinterLogfileLocation">
+      <property name="text">
+       <string>Select Location</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lbKioskIP">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kiosk IP :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="textKioskIP"/>
+    </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="btnClearEnv">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>680</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #006CFF;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
   </widget>
  </widget>
  <resources/>

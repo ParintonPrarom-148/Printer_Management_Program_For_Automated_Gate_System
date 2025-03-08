@@ -347,6 +347,31 @@ color:white;</string>
     </item>
    </layout>
   </widget>
+  <widget class="QPushButton" name="btnClearEnv">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>680</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #006CFF;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

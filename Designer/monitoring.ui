@@ -81,9 +81,9 @@
     <widget class="QTableWidget" name="tableLogPrimary">
      <property name="geometry">
       <rect>
-       <x>190</x>
-       <y>0</y>
-       <width>911</width>
+       <x>330</x>
+       <y>20</y>
+       <width>651</width>
        <height>271</height>
       </rect>
      </property>
@@ -134,166 +134,6 @@
        <string>No.</string>
       </property>
      </row>
-     <column>
-      <property name="text">
-       <string>timestamp</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>senderIp</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>printerId</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>printerStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>onlineStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>paperEndStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>paperJamStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <item row="0" column="0">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="2">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="3">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="4">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="5">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
     </widget>
     <widget class="QPushButton" name="btnLogFilePrimary">
      <property name="geometry">
@@ -325,9 +165,9 @@ color:white;</string>
     <widget class="QTableWidget" name="tableLogSecondary">
      <property name="geometry">
       <rect>
-       <x>190</x>
-       <y>0</y>
-       <width>911</width>
+       <x>330</x>
+       <y>20</y>
+       <width>651</width>
        <height>271</height>
       </rect>
      </property>
@@ -390,166 +230,6 @@ color:white;</string>
        <string>No</string>
       </property>
      </row>
-     <column>
-      <property name="text">
-       <string>timestamp</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>senderIp</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>printerId</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>printerStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>onlineStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>paperEndStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>paperJamStatus</string>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </column>
-     <item row="0" column="0">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="2">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="3">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="4">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
-     <item row="0" column="5">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textAlignment">
-       <set>AlignCenter</set>
-      </property>
-     </item>
     </widget>
     <widget class="QPushButton" name="btnLogFileSecondary">
      <property name="geometry">
@@ -574,30 +254,6 @@ color:white;</string>
      </property>
      <property name="text">
       <string>LogFile</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lb_information">
-     <property name="geometry">
-      <rect>
-       <x>-150</x>
-       <y>380</y>
-       <width>1261</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Arial</family>
-       <pointsize>20</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>
@@ -693,8 +349,8 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowSecondaryTable">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>210</y>
+     <x>400</x>
+     <y>230</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -735,8 +391,8 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowPrimaryTable">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>210</y>
+     <x>330</x>
+     <y>230</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -802,6 +458,48 @@ color:white;</string>
    </property>
    <property name="text">
     <string> PRINTER MANAGEMENT - MONITORING</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbPrinterModel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Printer Model :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PrinterModel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>140</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="lbOnlineStatus">
@@ -888,6 +586,30 @@ color:white;</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="lb_information">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>1281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <zorder>lbPaperStatus</zorder>
   <zorder>lbPrinterStatus</zorder>
   <zorder>stackedWidget</zorder>
@@ -899,10 +621,13 @@ color:white;</string>
   <zorder>Location</zorder>
   <zorder>lbPrinterManagementMonitoring_2</zorder>
   <zorder>btnShowSecondaryTable</zorder>
+  <zorder>lbPrinterModel</zorder>
+  <zorder>PrinterModel</zorder>
   <zorder>lbOnlineStatus</zorder>
   <zorder>lbPaperJamStatus</zorder>
   <zorder>OnlineStatus</zorder>
   <zorder>PaperJamStatus</zorder>
+  <zorder>lb_information</zorder>
  </widget>
  <resources/>
  <connections/>

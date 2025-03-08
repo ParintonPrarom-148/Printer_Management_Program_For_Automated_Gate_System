@@ -49,11 +49,11 @@ class Ui_Application(QWidget):  # Define the main UI class
 
         # Initialize buttons and connect them to functions
         self.btnSelectPrinterLogfileLocation = self.findChild(QPushButton, 'btnSelectPrinterLogfileLocation')
-
+        self.btnClearEnv = self.findChild(QPushButton, 'btnClearEnv')
         self.btnSaveApplicationSetup = self.findChild(QPushButton, 'btnSaveApplicationSetup')
 
         # Connect buttons to respective methods
-       
+        self.btnClearEnv.clicked.connect(self.clear_env)
         self.btnSelectPrinterLogfileLocation.clicked.connect(self.show_save_dialog)
         self.btnSaveApplicationSetup.clicked.connect(self.save_data_to_json)
 
@@ -196,7 +196,17 @@ class Ui_Application(QWidget):  # Define the main UI class
         QProcess.startDetached(sys.executable, sys.argv)  # เปิดโปรแกรมใหม่
         sys.exit(0)  # ปิดโปรแกรมเก่า
 
-    
+    def clear_env(self):
+        # Clear environment variables except for USERNAME and PASSWORD
+        env_variables = dotenv_values('.env')
+
+        # Remove unwanted environment variables
+        for key in list(env_variables.keys()):
+            if key not in ['USERNAME', 'PASSWORD', 'PRINTER_LOGFILE_LOCATION', 'KIOSK_LOGFILE_LOCATION']:
+                set_key('.env', key, '')  # Clear the key value
+
+        print("✔️ ข้อมูลใน .env ถูกลบเรียบร้อยแล้ว (ยกเว้น USERNAME และ PASSWORD)")
+
     def on_monitoring_selected(self):
         # Switch to the monitoring window
         self.close()

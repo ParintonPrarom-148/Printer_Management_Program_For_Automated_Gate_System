@@ -19,7 +19,6 @@ class Ui_Monitoring(QWidget):
         load_dotenv(override=True)
         self.init_ui()
         self.check_config_file()
-
     def check_config_file(self):
         printer_logfile_location = os.getenv("PRINTER_LOGFILE_LOCATION", "")
         config_file_path = os.path.join(printer_logfile_location, "config.json")
@@ -131,7 +130,10 @@ class Ui_Monitoring(QWidget):
         except Exception as e:
             print(f"Error updating location: {e}")
 
-   
+    # 🖨️ อัปเดตรุ่นเครื่องพิมพ์
+    def update_printer_model_label(self, setting):
+        model = self.get_printer_info(setting, 'PrinterModel')
+        self.PrinterModel.setText(model if model else "Printer Model: Not Found")
 
     # 📋 โหลดข้อมูลปริ้นเตอร์
     def get_printer_info(self, setting, key):
@@ -226,6 +228,7 @@ class Ui_Monitoring(QWidget):
     def show_primary_table(self):
         self.current_selected_printer = "Primary"  # บันทึกว่าเลือก Primary
         self.load_table('Primary')
+        self.update_printer_model_label('Primary')
 
         self.stackedWidget.setCurrentIndex(0)
         self.btnLogFilePrimary.show()
@@ -234,6 +237,7 @@ class Ui_Monitoring(QWidget):
     def show_secondary_table(self):
         self.current_selected_printer = "Secondary"  # บันทึกว่าเลือก Secondary
         self.load_table('Secondary')
+        self.update_printer_model_label('Secondary')
 
         self.stackedWidget.setCurrentIndex(1)
         self.btnLogFilePrimary.hide()

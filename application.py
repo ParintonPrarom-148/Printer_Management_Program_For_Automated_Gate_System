@@ -49,11 +49,11 @@ class Ui_Application(QWidget):  # Define the main UI class
 
         # Initialize buttons and connect them to functions
         self.btnSelectPrinterLogfileLocation = self.findChild(QPushButton, 'btnSelectPrinterLogfileLocation')
-        self.btnClearEnv = self.findChild(QPushButton, 'btnClearEnv')
+
         self.btnSaveApplicationSetup = self.findChild(QPushButton, 'btnSaveApplicationSetup')
 
         # Connect buttons to respective methods
-        self.btnClearEnv.clicked.connect(self.clear_env)
+       
         self.btnSelectPrinterLogfileLocation.clicked.connect(self.show_save_dialog)
         self.btnSaveApplicationSetup.clicked.connect(self.save_data_to_json)
 
@@ -136,7 +136,7 @@ class Ui_Application(QWidget):  # Define the main UI class
             # If the JSON file doesn't exist, create a new one
             if not os.path.exists(json_file_path):
                 print(f"⚠️ ไม่พบไฟล์ {json_file_path} กำลังสร้างไฟล์ใหม่...")
-                self.create_initial_json(json_file_path, printer_log_file_location)
+                self.create_initial_json(json_file_path)
 
             # Read the JSON file and update data
             with open(json_file_path, 'r') as file:
@@ -171,21 +171,15 @@ class Ui_Application(QWidget):  # Define the main UI class
             os.makedirs(printer_log_location, exist_ok=True)
             print(f"📂 สร้างโฟลเดอร์ printer_log: {printer_log_location}")
 
-    def create_initial_json(self, json_file_path, printer_log_file_location):
+    def create_initial_json(self, json_file_path):
         # Create an initial JSON file with default printer settings
-        printer1_model = "VKP80III"
-        printer2_model = "FTP-639"
-
-        location_file_printer_1 = os.path.join(printer_log_file_location, printer1_model).replace("\\", "/")
-        location_file_printer_2 = os.path.join(printer_log_file_location, printer2_model).replace("\\", "/")
-
         data = {
             "ApplicationSetup": [{}],
             "PrinterSetup1": [
-                {"PrinterModel": printer1_model, "Setting": "Primary", "LocationFilePrinter": location_file_printer_1}
+                {"PrinterModel": "", "Setting": "Primary", "LocationFilePrinter": ""}
             ],
             "PrinterSetup2": [
-                {"PrinterModel": printer2_model, "Setting": "Secondary", "LocationFilePrinter": location_file_printer_2}
+                {"PrinterModel": "", "Setting": "Secondary", "LocationFilePrinter": ""}
             ]
         }
 
@@ -202,17 +196,7 @@ class Ui_Application(QWidget):  # Define the main UI class
         QProcess.startDetached(sys.executable, sys.argv)  # เปิดโปรแกรมใหม่
         sys.exit(0)  # ปิดโปรแกรมเก่า
 
-    def clear_env(self):
-        # Clear environment variables except for USERNAME and PASSWORD
-        env_variables = dotenv_values('.env')
-
-        # Remove unwanted environment variables
-        for key in list(env_variables.keys()):
-            if key not in ['USERNAME', 'PASSWORD', 'PRINTER_LOGFILE_LOCATION', 'KIOSK_LOGFILE_LOCATION']:
-                set_key('.env', key, '')  # Clear the key value
-
-        print("✔️ ข้อมูลใน .env ถูกลบเรียบร้อยแล้ว (ยกเว้น USERNAME และ PASSWORD)")
-
+    
     def on_monitoring_selected(self):
         # Switch to the monitoring window
         self.close()

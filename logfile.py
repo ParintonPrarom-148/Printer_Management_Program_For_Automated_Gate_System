@@ -1,5 +1,6 @@
 from PyQt6.QtWidgets import QWidget, QTextEdit, QPushButton
 from PyQt6 import uic
+from datetime import datetime
 import json
 
 class Ui_LogFile(QWidget):
@@ -20,46 +21,52 @@ class Ui_LogFile(QWidget):
         if self.textLogfile is None:
             print("Error: textLogfile widget is not available.")
             return  # ถ้า textLogfile ไม่ถูกโหลด ก็จะไม่ทำการแสดงข้อมูล
-        
-        # อ่านข้อมูลจากไฟล์ JSON ที่ระบุ
         try:
             with open(json_file_path, 'r', encoding='utf-8') as file:
                 data = json.load(file)
                 
-                if 'PrinterLog' in data:
-                    printer_log_data = data['PrinterLog']
-                    log_content = ""
+                if not isinstance(data, list):  # ตรวจสอบว่า JSON ต้องเป็น List
+                    print("Error: JSON ไฟล์ต้องเป็น List ของข้อมูล log")
+                    return
+                try:
+                        data.sort(key=lambda x: datetime.strptime(x.get("timestamp", "1970-01-01 00:00:00.000"), "%Y-%m-%d %H:%M:%S.%f"), reverse=True)
+                except ValueError:
+                    return
 
-                    # เพิ่ม Header ของแต่ละคอลัมน์ รวมทั้ง PrinterID และ PrinterModel
-                    header = (f"{'Time'.ljust(14)} | {'PrinterID'.ljust(12)} | {'PrinterModel'.ljust(12)} | "
-                              f"{'DocumentID'.ljust(10)} | {'DocumentStatus'.ljust(15)} | {'PrinterStatus'.ljust(12)} | "
-                              f"{'PaperStatus'.ljust(12)} | {'Error'.ljust(12)}")
-                    log_content += header + "\n"
-                    log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่งระหว่าง Header และข้อมูล
+                log_content = ""
 
-                    # Loop ผ่านข้อมูล log ทั้งหมด
-                    for entry in printer_log_data:
-                        # ดึงข้อมูลจาก JSON ทุกตัวแปร
-                        time_str = entry.get('Time', 'No Time')
-                        printer_id = entry.get('PrinterID', 'No PrinterID')
-                        printer_model = entry.get('PrinterModel', 'No PrinterModel')
-                        document_id = entry.get('DocumentID', 'No DocumentID')
-                        document_status = entry.get('DocumentStatus', 'No DocumentStatus')
-                        printer_status = entry.get('PrinterStatus', 'No PrinterStatus')
-                        paper_status = entry.get('PaperStatus', 'No PaperStatus')
-                        error = entry.get('Error', 'No Error')
+                # หัวตาราง (Header)
+                header = (f"{'timestamp'.ljust(25)} | {'senderIp'.ljust(15)} | {'printerId'.ljust(12)} | "
+                        f"{'printerStatus'.ljust(15)} | {'onlineStatus'.ljust(10)} | {'paperEndStatus'.ljust(12)} | "
+                        f"{'paperJamStatus'.ljust(12)}\n")
+                log_content += header
+                log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่ง Header
 
-                        # สร้างข้อความในรูปแบบที่ต้องการ (ใช้ .ljust() เพื่อจัดระเบียบคอลัมน์)
-                        log_content += (f"{time_str.ljust(14)} | {printer_id.ljust(12)} | {printer_model.ljust(12)} | "
-                                        f"{document_id.ljust(10)} | {document_status.ljust(15)} | {printer_status.ljust(12)} | "
-                                        f"{paper_status.ljust(12)} | {error.ljust(12)}\n")
-                    
-                    # แสดงข้อมูลที่ได้ใน textLogfile
-                    self.textLogfile.setText(log_content)
-                else:
-                    print("Error: 'PrinterLog' not found in the JSON data.")
+                # Loop ผ่านข้อมูล log
+                for entry in data:  # ใช้ JSON ที่เป็น List โดยตรง
+                    time_str = entry.get('timestamp', 'No Time')
+                    sender_ip = entry.get('senderIp', 'No IP')
+                    printer_id = entry.get('printerId', 'No PrinterID')
+                    printer_status = entry.get('printerStatus', 'Unknown')
+                    online_status = entry.get('onlineStatus', 'Unknown')
+                    paper_end_status = entry.get('paperEndStatus', 'Unknown')
+                    paper_jam_status = entry.get('paperJamStatus', 'Unknown')
+
+                    # จัดรูปแบบข้อมูลให้อ่านง่ายขึ้น
+                    log_content += (f"{time_str.ljust(25)} | {sender_ip.ljust(15)} | {printer_id.ljust(12)} | "
+                                    f"{printer_status.ljust(15)} | {online_status.ljust(10)} | {paper_end_status.ljust(12)} | "
+                                    f"{paper_jam_status.ljust(12)}\n")
+
+                # แสดงข้อมูลใน textLogfile
+                self.textLogfile.setText(log_content)
+        
+        except FileNotFoundError:
+            print(f"❌ ไม่พบไฟล์ JSON ที่ {json_file_path}")
+        except json.JSONDecodeError:
+            print("❌ เกิดข้อผิดพลาดในการอ่านไฟล์ JSON (ไฟล์อาจไม่ใช่ JSON ที่ถูกต้อง)")
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"❌ เกิดข้อผิดพลาด: {e}")
+
         
     def on_monitoring_selected(self):
         self.close()  # ปิดหน้าจอปัจจุบัน

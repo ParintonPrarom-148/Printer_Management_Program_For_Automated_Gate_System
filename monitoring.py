@@ -5,6 +5,7 @@ from dotenv import load_dotenv  # นำเข้า dotenv
 from PyQt6 import uic
 from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidgetItem, QPushButton, QWidget, QToolButton, QMenu, QStackedWidget, QLabel, QMessageBox
 from PyQt6.QtCore import QTimer
+from datetime import datetime
 # เพิ่ม path ของ `printerStatusFclTP.py`
 printer_status_path = os.path.join(os.getcwd(), "python_printer_status")
 sys.path.append(printer_status_path)
@@ -15,31 +16,58 @@ class Ui_Monitoring(QWidget):
     def __init__(self):
         super().__init__()
         uic.loadUi('Designer/monitoring.ui', self)  # โหลด UI
-        self.init_ui()
         load_dotenv(override=True)
-        work_dir = os.getcwd()
-        self.primary_printer = printerStatus1(work_dir)
-        self.secondary_printer = printerStatus2(work_dir)
+        self.init_ui()
         self.check_config_file()
+
     def check_config_file(self):
         printer_logfile_location = os.getenv("PRINTER_LOGFILE_LOCATION", "")
         config_file_path = os.path.join(printer_logfile_location, "config.json")
         print(f"ไฟล์ JSON path ที่ได้: {config_file_path}")
+
         if not os.path.exists(config_file_path):
-            self.show_warning()
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Icon.Warning)
+            msg.setWindowTitle("แจ้งเตือน")
+            msg.setText("กรุณาตั้งค่าโปรแกรมที่หน้า Application Setup ก่อนครับ")
+            msg.setStandardButtons(QMessageBox.StandardButton.Ok)
+            msg.exec()  # แสดงกล่องแจ้งเตือน
             return
-        else:
-            print("พบไฟล์ config.json")
-            self.current_printer = self.primary_printer
-            self.is_using_secondary = False
-            self.init_ui()
-            self.json_data = self.load_json_data()
-            self.current_selected_printer = "Primary"
-            self.init_timer()
-            #self.update_location_label()
-            #self.show_primary_table()
-             
-            
+
+        print("พบไฟล์ config.json")
+
+        # โหลด JSON
+        with open(config_file_path, "r", encoding="utf-8") as file:
+            try:
+                self.json_data = json.load(file)
+            except json.JSONDecodeError:
+                QMessageBox.warning(None, "ข้อผิดพลาด", "ไฟล์ config.json ไม่ถูกต้อง")
+                return
+
+        # ตรวจสอบว่า PrinterModel มีค่าหรือไม่
+        printer_setup1 = self.json_data.get("PrinterSetup1", [{}])[0]
+        printer_setup2 = self.json_data.get("PrinterSetup2", [{}])[0]
+
+        if not printer_setup1.get("PrinterModel") or not printer_setup2.get("PrinterModel"):
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Icon.Warning)
+            msg.setWindowTitle("แจ้งเตือน")
+            msg.setText("กรุณากรอกข้อมูลชื่อรุ่นเครื่องพิมพ์ทั้ง 2 เครื่องก่อนครับ")
+            msg.setStandardButtons(QMessageBox.StandardButton.Ok)
+            msg.exec()  # แสดงกล่องแจ้งเตือน
+            return
+
+        # กำหนดค่าเครื่องพิมพ์
+        work_dir = os.getcwd()
+        self.primary_printer = printerStatus1(work_dir)
+        self.secondary_printer = printerStatus2(work_dir)
+        
+        self.current_printer = self.primary_printer
+        self.is_using_secondary = False
+        self.init_ui()
+        self.current_selected_printer = "Primary"
+        self.init_timer()
+        self.update_location_label()
 
     def show_warning(self):
         msg = QMessageBox()
@@ -103,10 +131,7 @@ class Ui_Monitoring(QWidget):
         except Exception as e:
             print(f"Error updating location: {e}")
 
-    # 🖨️ อัปเดตรุ่นเครื่องพิมพ์
-    def update_printer_model_label(self, setting):
-        model = self.get_printer_info(setting, 'PrinterModel')
-        self.PrinterModel.setText(model if model else "Printer Model: Not Found")
+   
 
     # 📋 โหลดข้อมูลปริ้นเตอร์
     def get_printer_info(self, setting, key):
@@ -123,82 +148,54 @@ class Ui_Monitoring(QWidget):
                     return setup.get('PrinterModel', '')
         return None
 
-    # 🔄 อัปเดตสถานะ Printer & Paper
+   # 🔄 อัปเดตสถานะ Printer & Paper
     def update_status(self):
         primary_status = self.primary_printer.get_status()
         secondary_status = self.secondary_printer.get_status()
 
-        if primary_status["printerStatus"] == "unavailable":
-            if not self.is_using_secondary:
-                QMessageBox.warning(self, "แจ้งเตือน", "เครื่องหลักมีปัญหากำลังพิมพ์งานที่เครื่องสำรอง")
-                self.current_printer = self.secondary_printer
-                self.is_using_secondary = True
-                # ดึงข้อมูลจาก printer status
-            status = self.current_printer.get_status()
-            # แสดง Printer Status และ Online Status ที่ printer_status_label2
-            printer_status_text2 = f"FTP-639PS {status['printerStatus']}\n"
-            self.PrinterStatus.setText(printer_status_text2)
-            online_status_text2 = f"FTP-639OS {status['onlineStatus']}\n"
-            self.OnlineStatus.setText(online_status_text2)
-
-            # แสดง Paper End Status และ Paper Jam Status ที่ paper_status_label2
-            paper_end_status_text2 = f"FTP-639ES {status['paperEndStatus']}\n"
-            self.PaperEndStatus.setText(paper_end_status_text2)
-            paper_jam_status_text2 = f"FTP-639JS {status['paperJamStatus']}\n"
-            self.PaperJamStatus.setText(paper_jam_status_text2)
-        
+        # ตรวจสอบว่าทั้งสองเครื่องใช้งานไม่ได้
         if primary_status["printerStatus"] == "unavailable" and secondary_status["printerStatus"] == "unavailable":
-            QMessageBox.critical(self, "แจ้งเตือน", "เครื่องหลักเเละเครื่องสำรองมีปัญหา...")
-            # ดึงข้อมูลจาก printer status
-            status = self.current_printer.get_status()
-            # แสดง Printer Status และ Online Status ที่ printer_status_label2
-            printer_status_text2 = f"FTP-639PS {status['printerStatus']}\n"
-            self.PrinterStatus.setText(printer_status_text2)
-            online_status_text2 = f"FTP-639OS {status['onlineStatus']}\n"
-            self.OnlineStatus.setText(online_status_text2)
+            self.lb_information.setText("⛔ เครื่องหลักเเละเครื่องสำรองมีปัญหา...")
+        else:
+            # ถ้าเครื่องสำรองกลับมาใช้งานได้ ให้ล้างข้อความแจ้งเตือน
+            if secondary_status["printerStatus"] == "available" and self.is_using_secondary:
+                self.lb_information.setText("✅ กำลังใช้เครื่องสำรอง")
 
-            # แสดง Paper End Status และ Paper Jam Status ที่ paper_status_label2
-            paper_end_status_text2 = f"FTP-639ES {status['paperEndStatus']}\n"
-            self.PaperEndStatus.setText(paper_end_status_text2)
-            paper_jam_status_text2 = f"FTP-639JS {status['paperJamStatus']}\n"
-            self.PaperJamStatus.setText(paper_jam_status_text2)
-        
+        # ถ้าเครื่องหลักใช้งานไม่ได้ และยังไม่ได้เปลี่ยนไปใช้เครื่องสำรอง
+        if primary_status["printerStatus"] == "unavailable" and not self.is_using_secondary:
+            self.lb_information.setText("⚠️ เครื่องหลักมีปัญหากำลังพิมพ์งานที่เครื่องสำรอง")
+            self.current_printer = self.secondary_printer
+            self.is_using_secondary = True
+            self.load_table('Secondary')
+
+        # ถ้าเครื่องหลักกลับมาใช้งานได้ และกำลังใช้เครื่องสำรอง → สลับกลับไปที่เครื่องหลัก
         if self.is_using_secondary and primary_status["printerStatus"] == "available":
-            QMessageBox.information(self, "แจ้งเตือน", "เครื่องหลักกลับมาใช้งานได้แล้ว กำลังสลับกลับไปที่เครื่องหลัก")
+            self.lb_information.setText("✅ เครื่องหลักกลับมาใช้งานได้แล้ว กำลังสลับกลับไปที่เครื่องหลัก")
             self.current_printer = self.primary_printer
             self.is_using_secondary = False
-        
-           # ดึงข้อมูลจาก printer status
-            status = self.current_printer.get_status()
-            # แสดง Printer Status และ Online Status ที่ printer_status_label2
-            printer_status_text2 = f"FTP-639PS {status['printerStatus']}\n"
-            self.PrinterStatus.setText(printer_status_text2)
-            online_status_text2 = f"FTP-639OS {status['onlineStatus']}\n"
-            self.OnlineStatus.setText(online_status_text2)
+            self.load_table('Primary')
 
-            # แสดง Paper End Status และ Paper Jam Status ที่ paper_status_label2
-            paper_end_status_text2 = f"FTP-639ES {status['paperEndStatus']}\n"
-            self.PaperEndStatus.setText(paper_end_status_text2)
-            paper_jam_status_text2 = f"FTP-639JS {status['paperJamStatus']}\n"
-            self.PaperJamStatus.setText(paper_jam_status_text2)
+        # ดึงข้อมูลจาก printer status
+        status = self.current_printer.get_status()
 
-    def update_all_printer_status(self):
-        """ อัปเดตสถานะเฉพาะเครื่องที่ถูกเลือก """
-        if self.current_selected_printer == "Primary":
-            self.update_printer_and_paper_status("Primary")
-        elif self.current_selected_printer == "Secondary":
-            self.update_printer_and_paper_status("Secondary")
-
+        # อัปเดต QLabel ต่างๆ
+        self.PrinterStatus.setText(f"{status['printerStatus']}\n")
+        self.OnlineStatus.setText(f"{status['onlineStatus']}\n")
+        self.PaperEndStatus.setText(f"{status['paperEndStatus']}\n")
+        self.PaperJamStatus.setText(f"{status['paperJamStatus']}\n")
 
     # 📂 เปิด LogFile
     def go_to_logfile(self, setting):
         self.close()
         location_file = self.get_printer_info(setting, 'LocationFilePrinter')
         if location_file:
-            log_file = os.path.join(location_file, 'LogFile', 'PrinterLogJson20241004150823.JSON')
+            current_time_folder = datetime.now().strftime("%Y%m%d")
+            current_time_file = datetime.now().strftime("%Y%m%d%H")
+            json_file_name = f"PrinterStatusJson{current_time_file}.JSON"
+            json_file_path = os.path.join(location_file, 'Status', current_time_folder, json_file_name)
             from logfile import Ui_LogFile
             self.new_window = Ui_LogFile()
-            self.new_window.load_logfile_data(log_file)
+            self.new_window.load_logfile_data(json_file_path)
             self.new_window.show()
 
     def go_to_logfile_primary(self):
@@ -229,8 +226,7 @@ class Ui_Monitoring(QWidget):
     def show_primary_table(self):
         self.current_selected_printer = "Primary"  # บันทึกว่าเลือก Primary
         self.load_table('Primary')
-        self.update_printer_model_label('Primary')
-        self.update_printer_and_paper_status('Primary')
+
         self.stackedWidget.setCurrentIndex(0)
         self.btnLogFilePrimary.show()
         self.btnLogFileSecondary.hide()
@@ -238,30 +234,58 @@ class Ui_Monitoring(QWidget):
     def show_secondary_table(self):
         self.current_selected_printer = "Secondary"  # บันทึกว่าเลือก Secondary
         self.load_table('Secondary')
-        self.update_printer_model_label('Secondary')
-        self.update_printer_and_paper_status('Secondary')
+
         self.stackedWidget.setCurrentIndex(1)
         self.btnLogFilePrimary.hide()
         self.btnLogFileSecondary.show()
 
-
-    # 📊 โหลดตารางจาก JSON
+    # 📊 โหลดข้อมูลจาก JSON และแสดงใน QTableWidget
     def load_table(self, setting):
         location_file = self.get_printer_info(setting, 'LocationFilePrinter')
         if location_file:
-            json_file_path = os.path.join(location_file, 'LogFile', 'PrinterLogJson20241004150823.JSON')
+            # ดึงเวลาปัจจุบันในรูปแบบ YYYYMMDDHH
+            current_time_folder = datetime.now().strftime("%Y%m%d")
+            current_time_file = datetime.now().strftime("%Y%m%d%H")
+            json_file_name = f"PrinterStatusJson{current_time_file}.JSON"
+            json_file_path = os.path.join(location_file, 'Status', current_time_folder, json_file_name)
+
             try:
                 with open(json_file_path, 'r', encoding='utf-8') as file:
                     data = json.load(file)
-                    printer_log = data.get('PrinterLog', [])
-                    table = self.tableLogPrimary if setting == 'Primary' else self.tableLogSecondary
-                    table.setRowCount(len(printer_log))
 
-                    for row, entry in enumerate(printer_log):
-                        for col, key in enumerate(['Time', 'DocumentID', 'DocumentStatus', 'PrinterStatus', 'PaperStatus', 'Error']):
-                            table.setItem(row, col, QTableWidgetItem(entry.get(key, '')))
+                    if not isinstance(data, list):
+                        return
+                    
+                    # เรียงลำดับจากล่าสุด -> เก่าสุด
+                    try:
+                        data.sort(key=lambda x: datetime.strptime(x.get("timestamp", "1970-01-01 00:00:00.000"), "%Y-%m-%d %H:%M:%S.%f"), reverse=True)
+                    except ValueError:
+                        return
+
+                    # ใช้ table ที่เหมาะสมกับ setting ('Primary' หรือ 'Secondary')
+                    table = self.tableLogPrimary if setting == 'Primary' else self.tableLogSecondary
+
+                    # คอลัมน์ที่ต้องการแสดง
+                    columns = ['timestamp', 'senderIp', 'printerId', 'printerStatus', 'onlineStatus', 'paperEndStatus', 'paperJamStatus']
+
+                    table.setRowCount(len(data))
+                    table.setColumnCount(len(columns))
+                    table.setHorizontalHeaderLabels(columns)
+
+                    for row, entry in enumerate(data):
+                        for col, key in enumerate(columns):
+                            value = entry.get(key, 'N/A')
+                            table.setItem(row, col, QTableWidgetItem(str(value)))
+
+                    table.resizeColumnsToContents()  # ปรับขนาดอัตโนมัติ
+
+            except FileNotFoundError:
+                print(f"Error: The file at {json_file_path} was not found.")
+            except json.JSONDecodeError:
+                print("Error: The file could not be decoded as JSON.")
             except Exception as e:
-                print(f"Error loading table: {e}")
+                print(f"An error occurred: {e}")
+
 
     def closeEvent(self, event):
         """ หยุดการทำงานของ Thread ก่อนปิดโปรแกรม """

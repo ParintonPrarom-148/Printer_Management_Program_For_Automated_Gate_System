@@ -68,7 +68,6 @@ class printerStatus1:
         self.thread.start()
 
     def enumusbdevice(self):
-
         hDll = ctypes.WinDLL(self.dll_path)
         hDll.EnumUSBDevices.argtypes = [ctypes.POINTER(PrinterStruct), ctypes.POINTER(ctypes.c_uint32)]
         hDll.EnumUSBDevices.restype = ctypes.c_int
@@ -83,6 +82,7 @@ class printerStatus1:
             return False
         
         return devices_array
+    
     def openprinterUSBEx(self):
         hDll = ctypes.WinDLL(self.dll_path)
         hDll.OpenPrinterUSBEx.argtypes = [ctypes.POINTER(PrinterStruct), ctypes.POINTER(ctypes.c_long)]

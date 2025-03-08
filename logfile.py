@@ -29,14 +29,14 @@ class Ui_LogFile(QWidget):
                     print("Error: JSON ไฟล์ต้องเป็น List ของข้อมูล log")
                     return
                 try:
-                        data.sort(key=lambda x: datetime.strptime(x.get("timestamp", "1970-01-01 00:00:00.000"), "%Y-%m-%d %H:%M:%S.%f"), reverse=True)
+                    data.sort(key=lambda x: datetime.strptime(x.get("timestamp", "1970-01-01 00:00:00.000"), "%Y-%m-%d %H:%M:%S.%f"), reverse=True)
                 except ValueError:
                     return
 
                 log_content = ""
 
-                # หัวตาราง (Header)
-                header = (f"{'timestamp'.ljust(25)} | {'senderIp'.ljust(15)} | {'printerId'.ljust(12)} | "
+                # หัวตาราง (Header) เพิ่ม location
+                header = (f"{'timestamp'.ljust(25)} | {'location'.ljust(15)} | {'senderIp'.ljust(15)} | {'printerId'.ljust(12)} | "
                         f"{'printerStatus'.ljust(15)} | {'onlineStatus'.ljust(10)} | {'paperEndStatus'.ljust(12)} | "
                         f"{'paperJamStatus'.ljust(12)}\n")
                 log_content += header
@@ -45,6 +45,7 @@ class Ui_LogFile(QWidget):
                 # Loop ผ่านข้อมูล log
                 for entry in data:  # ใช้ JSON ที่เป็น List โดยตรง
                     time_str = entry.get('timestamp', 'No Time')
+                    location = entry.get('location', 'No Location')  # ดึงข้อมูล location
                     sender_ip = entry.get('senderIp', 'No IP')
                     printer_id = entry.get('printerId', 'No PrinterID')
                     printer_status = entry.get('printerStatus', 'Unknown')
@@ -53,19 +54,20 @@ class Ui_LogFile(QWidget):
                     paper_jam_status = entry.get('paperJamStatus', 'Unknown')
 
                     # จัดรูปแบบข้อมูลให้อ่านง่ายขึ้น
-                    log_content += (f"{time_str.ljust(25)} | {sender_ip.ljust(15)} | {printer_id.ljust(12)} | "
+                    log_content += (f"{time_str.ljust(25)} | {location.ljust(15)} | {sender_ip.ljust(15)} | {printer_id.ljust(12)} | "
                                     f"{printer_status.ljust(15)} | {online_status.ljust(10)} | {paper_end_status.ljust(12)} | "
                                     f"{paper_jam_status.ljust(12)}\n")
 
                 # แสดงข้อมูลใน textLogfile
                 self.textLogfile.setText(log_content)
-        
+
         except FileNotFoundError:
             print(f"❌ ไม่พบไฟล์ JSON ที่ {json_file_path}")
         except json.JSONDecodeError:
             print("❌ เกิดข้อผิดพลาดในการอ่านไฟล์ JSON (ไฟล์อาจไม่ใช่ JSON ที่ถูกต้อง)")
         except Exception as e:
             print(f"❌ เกิดข้อผิดพลาด: {e}")
+
 
         
     def on_monitoring_selected(self):

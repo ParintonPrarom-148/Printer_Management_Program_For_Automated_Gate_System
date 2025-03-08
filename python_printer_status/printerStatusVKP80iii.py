@@ -48,6 +48,7 @@ class printerStatus1:
         self.IPAddr=socket.gethostbyname(hostname)
 
         self.current_status = {
+                "location": os.getenv("LOCATION"),
                 "printerId": os.getenv("LANE_print1"),
                 "printerStatus": "unavailable",
                 "senderIp": self.IPAddr,
@@ -214,7 +215,6 @@ class printerStatus1:
                 self.savejsonstatus()  
                 remove_timestamp = {i:self.current_status[i] for i in self.current_status if i!='timestamp'}
                 if self.previuos_status != remove_timestamp:
-                    self.post()
                     self.previuos_status = remove_timestamp
                 time.sleep(1)
             except Exception:
@@ -262,9 +262,6 @@ class printerStatus1:
         folder_path = os.path.join(printer_location, "Status", timestampfolder)  # ใช้ path ตามที่ต้องการ
         file_path = os.path.join(folder_path, f"PrinterStatusJson{timestampfile}.json")
 
-        # Debug ดู path ว่าถูกต้องไหม
-        print(f"Folder Path: {folder_path}")
-        print(f"File Path: {file_path}")
 
         # ตรวจสอบว่าโฟลเดอร์ "Status" และ "timestampfolder" มีอยู่หรือไม่ ถ้าไม่ให้สร้าง
         try:

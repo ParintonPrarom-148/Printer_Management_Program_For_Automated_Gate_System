@@ -36,6 +36,7 @@ class printerStatus2:
         hostname = socket.gethostname()
         self.IPAddr = socket.gethostbyname(hostname)
         self.current_status = {
+            "location": os.getenv("LOCATION"),
             "printerId": os.getenv("LANE_print2"),
             "printerStatus": "unavailable",
             "senderIp": self.IPAddr,
@@ -203,9 +204,6 @@ class printerStatus2:
         folder_path = os.path.join(printer_location, "Status", timestampfolder)  # ใช้ path ตามที่ต้องการ
         file_path = os.path.join(folder_path, f"PrinterStatusJson{timestampfile}.json")
 
-        # Debug ดู path ว่าถูกต้องไหม
-        print(f"Folder Path: {folder_path}")
-        print(f"File Path: {file_path}")
 
         # ตรวจสอบว่าโฟลเดอร์ "Status" และ "timestampfolder" มีอยู่หรือไม่ ถ้าไม่ให้สร้าง
         try:

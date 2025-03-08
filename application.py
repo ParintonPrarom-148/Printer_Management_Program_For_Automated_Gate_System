@@ -161,7 +161,7 @@ class Ui_Application(QWidget):  # Define the main UI class
                 json.dump(data, file, indent=4)
 
             print("✅ Data saved successfully.")
-            self.update_env_variables(printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log)
+            self.update_env_variables(location,printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log)
 
         except Exception as e:
             print(f"❌ Error saving data: {e}")
@@ -186,9 +186,10 @@ class Ui_Application(QWidget):  # Define the main UI class
         with open(json_file_path, 'w') as file:
             json.dump(data, file, indent=4)
 
-    def update_env_variables(self, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log):
+    def update_env_variables(self,location, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log):
         load_dotenv(override=True)
         # Update .env file with new settings
+        set_key(env_file, "LOCATION",(location))
         set_key(env_file, "PRINTER_LOGFILE_LOCATION", os.path.normpath(printer_log_file_location))
         set_key(env_file, "KIOSK_LOGFILE_LOCATION", os.path.normpath(kiosk_location_log_file))
         set_key(env_file, "SERVER_URL", url_web_service)

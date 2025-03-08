@@ -1,10 +1,10 @@
-from PyQt6.QtWidgets import QWidget, QToolButton, QMenu, QApplication, QLineEdit, QPushButton, QFileDialog,QComboBox
-from PyQt6.QtCore import QDir
+from PyQt6.QtWidgets import QWidget, QToolButton, QMenu, QApplication, QLineEdit, QPushButton, QFileDialog,QComboBox,QWidget, QToolButton, QMenu, QLineEdit, QPushButton, QApplication, QFileDialog
+from PyQt6.QtCore import QDir,QProcess
 from PyQt6 import uic
 import sys
 import json
 import os
-from dotenv import load_dotenv, set_key
+from dotenv import load_dotenv, set_key, dotenv_values
 env_file = ".env"
 
 class Ui_Configuration(QWidget):
@@ -204,10 +204,18 @@ class Ui_Configuration(QWidget):
                 json.dump(data, file, indent=4)
 
             print("Data saved successfully.")
+            self.update_env_variables(printer_name1, printer_name2)
 
         except Exception as e:
             print(f"Error saving data: {e}")
 
+    def update_env_variables(self, printer_name1, printer_name2):
+        load_dotenv(override=True)
+        # Update .env file with new settings
+        set_key(env_file, "LANE_print1", printer_name1)
+        set_key(env_file, "LANE_print2", printer_name2)
+        QProcess.startDetached(sys.executable, sys.argv)  # เปิดโปรแกรมใหม่
+        sys.exit(0)  # ปิดโปรแกรมเก่า
   
 
     def on_monitoring_selected(self):

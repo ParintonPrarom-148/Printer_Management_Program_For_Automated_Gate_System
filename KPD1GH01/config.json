@@ -1,0 +1,32 @@
+{
+    "ApplicationSetup": [
+        {
+            "Location": "D1GH01",
+            "GateLane": "01",
+            "Terminal": "D1",
+            "KioskIP": "192.168.144.10",
+            "SetTimeSendLog": "10",
+            "KioskLocationLogFile": "C:/Users/Pluem/OneDrive/\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23/GitHub/Printer_Management_Program_For_Automated_Gate_System/Printer_Management_Program_For_Automated_Gate_System\\KPD1GH01\\config.json",
+            "URLWebService": "localhost:8081",
+            "PrinterLogFileName": "KPD1GH01",
+            "PrinterLogFileLocation": "C:/Users/Pluem/OneDrive/\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23/GitHub/Printer_Management_Program_For_Automated_Gate_System/Printer_Management_Program_For_Automated_Gate_System\\KPD1GH01",
+            "Remark": "By Pluem"
+        }
+    ],
+    "PrinterSetup1": [
+        {
+            "PrinterModel": "VKP80III",
+            "Setting": "Primary",
+            "LocationFilePrinter": "C:\\Users\\Pluem\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\GitHub\\Printer_Management_Program_For_Automated_Gate_System\\Printer_Management_Program_For_Automated_Gate_System\\KPD1GH01\\Primary",
+            "ServerURL": ""
+        }
+    ],
+    "PrinterSetup2": [
+        {
+            "PrinterModel": "VKP80III",
+            "Setting": "Secondary",
+            "LocationFilePrinter": "C:\\Users\\Pluem\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\GitHub\\Printer_Management_Program_For_Automated_Gate_System\\Printer_Management_Program_For_Automated_Gate_System\\KPD1GH01\\Secondary",
+            "ServerURL": ""
+        }
+    ]
+}

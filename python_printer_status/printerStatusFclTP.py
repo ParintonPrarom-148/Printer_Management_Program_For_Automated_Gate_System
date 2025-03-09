@@ -78,6 +78,10 @@ class printerStatus2:
                     self.current_status["printerStatus"] = "unavailable"
                     self.current_status["onlineStatus"] = "offline"
                     self.savejsonstatus()
+                    remove_timestamp = {i:self.current_status[i] for i in self.current_status if i!='timestamp'}
+                    if self.previuos_status != remove_timestamp:
+                        self.previuos_status = remove_timestamp
+                        self.post()
                     time.sleep(1)
                     continue
 
@@ -88,7 +92,11 @@ class printerStatus2:
                     self.current_status["printerStatus"] = "unavailable"
                     self.current_status["onlineStatus"] = "offline"
                     self.savejsonstatus()
-                
+                    remove_timestamp = {i:self.current_status[i] for i in self.current_status if i!='timestamp'}
+                    if self.previuos_status != remove_timestamp:
+                        self.previuos_status = remove_timestamp
+                        self.post()
+                time.sleep(1)
                 time.sleep(1)
             except Exception as e:
                 logger.exception(f"Error in check_status: {e}")

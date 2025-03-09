@@ -216,6 +216,7 @@ class printerStatus1:
                 remove_timestamp = {i:self.current_status[i] for i in self.current_status if i!='timestamp'}
                 if self.previuos_status != remove_timestamp:
                     self.previuos_status = remove_timestamp
+                    self.post()
                 time.sleep(1)
             except Exception:
                 logger.exception("Check printer status error")
@@ -292,11 +293,5 @@ class printerStatus1:
                 print("New file created and data saved.")
         except Exception as e:
             print(f"Error saving file: {e}")
-
-
-
-
-
-
 # 1st byte: 18 - offline
 # 2nd byte: 28 - cutter error/ hardware error --> paper jam

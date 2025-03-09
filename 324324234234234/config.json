@@ -1,0 +1,32 @@
+{
+    "ApplicationSetup": [
+        {
+            "Location": "324234234",
+            "GateLane": "4234324",
+            "Terminal": "2342423",
+            "KioskIP": "23423",
+            "SetTimeSendLog": "243243223423432",
+            "KioskLocationLogFile": "C:/Users/Pluem/OneDrive/\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23/GitHub/Printer_Management_Program_For_Automated_Gate_System/Printer_Management_Program_For_Automated_Gate_System\\324324234234234\\config.json",
+            "URLWebService": "3243243",
+            "PrinterLogFileName": "324324234234234",
+            "PrinterLogFileLocation": "C:/Users/Pluem/OneDrive/\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23/GitHub/Printer_Management_Program_For_Automated_Gate_System/Printer_Management_Program_For_Automated_Gate_System\\324324234234234",
+            "Remark": "42343423"
+        }
+    ],
+    "PrinterSetup1": [
+        {
+            "PrinterModel": "VKP80III",
+            "Setting": "Primary",
+            "LocationFilePrinter": "C:\\Users\\Pluem\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\GitHub\\Printer_Management_Program_For_Automated_Gate_System\\Printer_Management_Program_For_Automated_Gate_System\\324324234234234\\Primary",
+            "ServerURL": "234234234"
+        }
+    ],
+    "PrinterSetup2": [
+        {
+            "PrinterModel": "FTP-639",
+            "Setting": "Secondary",
+            "LocationFilePrinter": "C:\\Users\\Pluem\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\GitHub\\Printer_Management_Program_For_Automated_Gate_System\\Printer_Management_Program_For_Automated_Gate_System\\324324234234234\\Secondary",
+            "ServerURL": "324234234"
+        }
+    ]
+}

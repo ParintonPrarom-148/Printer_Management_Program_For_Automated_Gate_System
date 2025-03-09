@@ -40,7 +40,7 @@ class Ui_Monitoring(QWidget):
         print(f"ไฟล์ JSON path ที่ได้: {config_file_path}")
 
         if not os.path.exists(config_file_path):
-            QMessageBox.warning(self, "แจ้งเตือน", "กรุณาตั้งค่าโปรแกรมที่หน้า Application Setup ก่อนครับ")
+            QMessageBox.warning(self, "แจ้งเตือน", "กรุณาตั้งค่าของโปรแกรมในหน้า Application Setup ก่อนครับ")
             return
 
         # อ่านข้อมูลจากไฟล์ config.json
@@ -60,7 +60,7 @@ class Ui_Monitoring(QWidget):
 
         # ตรวจสอบว่าเครื่องพิมพ์ทั้งสองเครื่องมีข้อมูลหรือไม่
         if not primary_model or not secondary_model:
-            self.show_warning("กรุณากรอกข้อมูลชื่อรุ่นเครื่องพิมพ์ทั้ง 2 เครื่องก่อนครับ")
+            QMessageBox.warning(self, "ข้อผิดพลาด", "กรุณาตั้งค่าชื่อรุ่นของเครื่องพิมพ์ทั้ง 2 เครื่องในหน้า Configuration Setup ก่อนครับ")
             return
 
         # ตรวจสอบว่าเครื่องพิมพ์หลักและสำรองเป็นรุ่น VKP80III หรือไม่
@@ -138,7 +138,7 @@ class Ui_Monitoring(QWidget):
 
         self.table_timer = QTimer(self)
         self.table_timer.timeout.connect(self.update_table)
-        self.table_timer.start(3000)
+        self.table_timer.start(1000)
 
     def update_printer_model_label(self, setting):
         """อัปเดตรุ่นของเครื่องพิมพ์"""

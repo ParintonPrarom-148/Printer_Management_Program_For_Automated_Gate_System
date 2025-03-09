@@ -6,13 +6,16 @@ import json
 import os
 from dotenv import load_dotenv, set_key, dotenv_values
 env_file = ".env"
+# กำหนดเส้นทางไฟล์ .ui โดยใช้ __file__ เพื่อให้ทำงานได้จากไฟล์ executable
+ui_file = os.path.join(os.path.dirname(__file__), 'Designer', 'configuration.ui')
+
 
 class Ui_Configuration(QWidget):
     def __init__(self):
         super().__init__()
 
-        # โหลด UI ที่สร้างจาก Qt Designer
-        uic.loadUi('Designer/configuration.ui', self)
+             # โหลด UI
+        uic.loadUi(ui_file, self)
         # เชื่อม QToolButton ที่ชื่อ btnmenu
         self.btnmenu = self.findChild(QToolButton, 'btnmenu')
 

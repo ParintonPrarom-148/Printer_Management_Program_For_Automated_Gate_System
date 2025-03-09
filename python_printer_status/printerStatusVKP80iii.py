@@ -8,9 +8,11 @@ import time
 import schedule
 import requests
 import json
+import sys
 from dotenv import load_dotenv
 load_dotenv()
 logger = logging.getLogger(__name__)
+
 
 class PrinterStruct(ctypes.Structure):
     _fields_ = [
@@ -44,6 +46,13 @@ class printerStatus1:
     
     def __init__(self, work_dir):
         self.running = True  # ใช้ควบคุม Thread
+        
+        if getattr(sys, 'frozen', False):
+            # กรณีที่รันจาก .exe (PyInstaller)
+            base_path = sys._MEIPASS
+        else:
+            # กรณีที่รันจาก Python ปกติ
+            base_path = work_dir
         hostname=socket.gethostname()
         self.IPAddr=socket.gethostbyname(hostname)
 
@@ -60,7 +69,7 @@ class printerStatus1:
         
         self.previuos_status = {}
         # ปรับเส้นทางของ dll_path ให้ถูกต้อง
-        self.dll_path = os.path.join(work_dir, "python_printer_status", "CuCustomWndAPI.dll")
+        self.dll_path = os.path.join(base_path, "python_printer_status", "CuCustomWndAPI.dll")
 
 
         schedule.every(int(os.getenv("POST_PRINTER_STATUS_SECOND_INTERVAL"))).seconds.do(self.post)

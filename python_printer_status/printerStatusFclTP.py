@@ -8,9 +8,12 @@ import time
 import schedule
 import requests
 import json
-import asyncio
+#import asyncio
+import sys
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 logger = logging.getLogger(__name__)
 
@@ -33,6 +36,12 @@ class RECEIVE_DATA(ctypes.Structure):
 class printerStatus2:
     def __init__(self, work_dir):
         self.running = True  # ใช้ควบคุม Thread
+        if getattr(sys, 'frozen', False):
+        # กรณีที่รันจาก .exe (PyInstaller)
+            base_path = sys._MEIPASS
+        else:
+            # กรณีที่รันจาก Python ปกติ
+            base_path = work_dir
         hostname = socket.gethostname()
         self.IPAddr = socket.gethostbyname(hostname)
         self.current_status = {
@@ -46,7 +55,7 @@ class printerStatus2:
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
         }
         self.previuos_status = {}
-        self.dll_path = os.path.join(work_dir, "python_printer_status", "FTPCtrl_x64.dll")
+        self.dll_path = os.path.join(base_path, "python_printer_status", "FTPCtrl_x64.dll")
 
 
         # ตรวจสอบค่าตัวแปรสภาพแวดล้อมที่จำเป็น

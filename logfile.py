@@ -4,11 +4,14 @@ from PyQt6.QtCore import QTimer
 from datetime import datetime
 import json
 import os
+# กำหนดเส้นทางไฟล์ .ui โดยใช้ __file__ เพื่อให้ทำงานได้จากไฟล์ executable
+ui_file = os.path.join(os.path.dirname(__file__), 'Designer', 'logfile.ui')
 
 class Ui_LogFile(QWidget):
     def __init__(self, json_file_path):
         super().__init__()
-        uic.loadUi('Designer/logfile.ui', self)  # โหลด UI ที่ออกแบบไว้
+        # โหลด UI
+        uic.loadUi(ui_file, self)
 
         # เชื่อมต่อ Widget กับ UI
         self.textLogfile = self.findChild(QTextEdit, 'textLogfile')

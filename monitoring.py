@@ -7,9 +7,19 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidge
 from PyQt6.QtCore import QTimer
 from datetime import datetime
 
+# กำหนดเส้นทางไฟล์ .ui โดยใช้ __file__ เพื่อให้ทำงานได้จากไฟล์ executable
+ui_file = os.path.join(os.path.dirname(__file__), 'Designer', 'monitoring.ui')
+
 # กำหนดเส้นทางไปยังโฟลเดอร์ที่เก็บข้อมูลสถานะเครื่องพิมพ์
-printer_status_path = os.path.join(os.getcwd(), "python_printer_status")
-sys.path.append(printer_status_path)
+printer_status_path = os.path.join(os.path.dirname(__file__), "python_printer_status")
+
+# ใช้ pkg_resources เพื่อโหลดโมดูลจากไฟล์ในไฟล์ executable
+if getattr(sys, 'frozen', False):
+    # หากโปรแกรมรันจาก executable
+    sys.path.append(printer_status_path)
+else:
+    # หากโปรแกรมรันจาก source code
+    sys.path.append(os.path.join(os.getcwd(), "python_printer_status"))
 
 # นำเข้าโมดูลสถานะเครื่องพิมพ์
 from printerStatusFclTP import printerStatus2  
@@ -17,8 +27,8 @@ from printerStatusVKP80iii import printerStatus1
 
 class Ui_Monitoring(QWidget):
     def __init__(self):
-        super().__init__()
-        uic.loadUi('Designer/monitoring.ui', self)  # โหลด UI จากไฟล์ .ui
+        super().__init__()# โหลด UI
+        uic.loadUi(ui_file, self)
         load_dotenv(override=True)  # โหลดไฟล์ .env
         self.init_ui()  # เริ่มต้น UI
         self.check_config_file()  # ตรวจสอบไฟล์ config

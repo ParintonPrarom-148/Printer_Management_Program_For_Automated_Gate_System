@@ -6,22 +6,23 @@ from PyQt6.QtCore import QProcess  # For handling external processes (not used i
 import json  # To handle JSON file reading/writing
 import sys  # For system operations like reloading the program
 import os  # For file and folder operations
-
+# กำหนดเส้นทางไฟล์ .ui โดยใช้ __file__ เพื่อให้ทำงานได้จากไฟล์ executable
+ui_file = os.path.join(os.path.dirname(__file__), 'Designer', 'application.ui')
 env_file = ".env"  # Path to the environment file
 
 class Ui_Application(QWidget):  # Define the main UI class
     def __init__(self):
         super().__init__()  # Initialize the QWidget (parent class)
 
-        # Load UI created by Qt Designer
-        uic.loadUi('Designer/application.ui', self)
+        uic.loadUi(ui_file, self)
         load_dotenv()  # Load the .env file to access environment variables
         self.load_config()  # Load configuration settings
 
         # Link QToolButton named 'btnmenu' and create the dropdown menu
         self.btnmenu = self.findChild(QToolButton, 'btnmenu')
         self.create_menu()  # Create menu items
-
+        set_key(env_file, "USERNAME",("Pluem"))
+        set_key(env_file, "PASSWORD",("1234"))
         # Link QLineEdit and QPushButton elements for user interaction
         self.setup_ui_elements()
 

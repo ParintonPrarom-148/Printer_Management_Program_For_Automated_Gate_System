@@ -223,9 +223,7 @@ class Ui_Configuration(QWidget):
 
     def on_monitoring_selected(self):
         self.close()  # ปิดหน้าจอปัจจุบัน
-        from monitoring import Ui_Monitoring  # โหลด UI ของหน้าจอ Monitoring
-        self.new_window = Ui_Monitoring()  # สร้างอินสแตนซ์ของหน้าจอ Monitoring
-        self.new_window.show()  # แสดงหน้าจอใหม่
+ 
 
     def on_configuration_selected(self):
         # เปิดหน้าจอ Configuration.py

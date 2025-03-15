@@ -75,16 +75,16 @@
     </font>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="page_3">
     <widget class="QTableWidget" name="tableLogPrimary">
      <property name="geometry">
       <rect>
-       <x>330</x>
+       <x>190</x>
        <y>20</y>
-       <width>651</width>
-       <height>271</height>
+       <width>921</width>
+       <height>401</height>
       </rect>
      </property>
      <property name="verticalScrollBarPolicy">
@@ -165,10 +165,10 @@ color:white;</string>
     <widget class="QTableWidget" name="tableLogSecondary">
      <property name="geometry">
       <rect>
-       <x>330</x>
+       <x>190</x>
        <y>20</y>
-       <width>651</width>
-       <height>271</height>
+       <width>921</width>
+       <height>401</height>
       </rect>
      </property>
      <property name="font">
@@ -349,7 +349,7 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowSecondaryTable">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>260</x>
      <y>230</y>
      <width>75</width>
      <height>23</height>
@@ -391,7 +391,7 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowPrimaryTable">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>190</x>
      <y>230</y>
      <width>75</width>
      <height>23</height>

@@ -177,14 +177,20 @@ class printerStatus2:
 
     def post(self):
         try:
+            server_url = os.getenv("SERVER_URL")  # ดึงค่า SERVER_URL หรือใช้ค่า default
+            full_url = f"{server_url}/Status"  # เพิ่ม 'Logfile' ต่อท้าย
+
             logger.debug(f"Posting to status server: {self.current_status}")
+
             response = requests.post(
-                os.getenv("SERVER_URL"),
+                full_url,
                 json=self.current_status,
                 auth=(os.getenv("USERNAME"), os.getenv("PASSWORD"))
             )
-            response.raise_for_status()  # ตรวจสอบสถานะการตอบกลับ
+
+            response.raise_for_status()  # ตรวจสอบ response ว่ามี error หรือไม่
             logger.debug(response.json())
+
         except requests.exceptions.RequestException as e:
             logger.exception(f"Posting to status server failed: {e}")
         except Exception as e:

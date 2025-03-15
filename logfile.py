@@ -33,7 +33,7 @@ class Ui_LogFile(QWidget):
         if self.textLogfile is None:
             print("Error: textLogfile widget ไม่สามารถเข้าถึงได้")
             return  # ถ้า textLogfile ไม่ถูกโหลด ก็จะไม่ทำการแสดงข้อมูล
-        
+
         if not os.path.exists(self.json_file_path):
             print(f"❌ ไม่พบไฟล์ JSON: {self.json_file_path}")
             return
@@ -57,26 +57,27 @@ class Ui_LogFile(QWidget):
                 log_content = ""
 
                 # หัวตาราง (Header) สำหรับแสดงข้อมูล log
-                header = (f"{'timestamp'.ljust(25)} | {'location'.ljust(15)} | {'senderIp'.ljust(15)} | {'printerId'.ljust(12)} | "
-                        f"{'printerStatus'.ljust(15)} | {'onlineStatus'.ljust(10)} | {'paperEndStatus'.ljust(12)} | "
-                        f"{'paperJamStatus'.ljust(12)}\n")
+                header = (f"{'timestamp'.ljust(25)} | {'Location'.ljust(10)} | {'PrinterModel'.ljust(20)} | {'Document'.ljust(25)} | "
+                        f"{'DocumentStatus'.ljust(12)} | {'printerStatus'.ljust(12)} | {'onlineStatus'.ljust(10)} | "
+                        f"{'paperEndStatus'.ljust(12)} | {'paperJamStatus'.ljust(12)}\n")
                 log_content += header
                 log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่ง Header
 
                 # Loop ผ่านข้อมูล log และแสดงข้อมูลในรูปแบบที่อ่านง่าย
                 for entry in data:
                     time_str = entry.get('timestamp', 'No Time')
-                    location = entry.get('location', 'No Location')
-                    sender_ip = entry.get('senderIp', 'No IP')
-                    printer_id = entry.get('printerId', 'No PrinterID')
+                    location = entry.get('Location', 'No Location')
+                    printer_model = entry.get('PrinterModel', 'Unknown')
+                    document = entry.get('Document', 'No Document')
+                    document_status = entry.get('DocumentStatus', 'Unknown')
                     printer_status = entry.get('printerStatus', 'Unknown')
                     online_status = entry.get('onlineStatus', 'Unknown')
                     paper_end_status = entry.get('paperEndStatus', 'Unknown')
                     paper_jam_status = entry.get('paperJamStatus', 'Unknown')
 
-                    log_content += (f"{time_str.ljust(25)} | {location.ljust(15)} | {sender_ip.ljust(15)} | {printer_id.ljust(12)} | "
-                                    f"{printer_status.ljust(15)} | {online_status.ljust(10)} | {paper_end_status.ljust(12)} | "
-                                    f"{paper_jam_status.ljust(12)}\n")
+                    log_content += (f"{time_str.ljust(25)} | {location.ljust(10)} | {printer_model.ljust(20)} | {document.ljust(25)} | "
+                                    f"{document_status.ljust(12)} | {printer_status.ljust(12)} | {online_status.ljust(10)} | "
+                                    f"{paper_end_status.ljust(12)} | {paper_jam_status.ljust(12)}\n")
 
                 # แสดงข้อมูล log ใน QTextEdit
                 self.textLogfile.setText(log_content)
@@ -89,6 +90,3 @@ class Ui_LogFile(QWidget):
     # ฟังก์ชันเมื่อกดปุ่ม "กลับ" เพื่อไปที่หน้าจอ Monitoring
     def on_monitoring_selected(self):
         self.close()  # ปิดหน้าจอ LogFile
-        from monitoring import Ui_Monitoring  # โหลดหน้าจอ Monitoring
-        self.new_window = Ui_Monitoring()  # สร้างอินสแตนซ์ของหน้าจอ Monitoring
-        self.new_window.show()  # แสดงหน้าจอใหม่

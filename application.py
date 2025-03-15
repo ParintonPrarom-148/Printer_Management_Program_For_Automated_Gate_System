@@ -161,7 +161,7 @@ class Ui_Application(QWidget):  # กำหนดคลาส UI หลัก
                 json.dump(data, file, indent=4)
 
             print("✅ Data saved successfully.")
-            self.update_env_variables(location, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log)
+            self.update_env_variables(location, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log,kiosk_ip)
 
         except Exception as e:
             print(f"❌ Error saving data: {e}")
@@ -186,13 +186,14 @@ class Ui_Application(QWidget):  # กำหนดคลาส UI หลัก
         with open(json_file_path, 'w') as file:
             json.dump(data, file, indent=4)
 
-    def update_env_variables(self, location, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log):
+    def update_env_variables(self, location, printer_log_file_location, kiosk_location_log_file, url_web_service, set_time_send_log,kiosk_ip):
         load_dotenv(override=True)
         # อัพเดตไฟล์ .env ด้วยการตั้งค่าใหม่
         set_key(env_file, "LOCATION", location)
         set_key(env_file, "PRINTER_LOGFILE_LOCATION", os.path.normpath(printer_log_file_location))
         set_key(env_file, "KIOSK_LOGFILE_LOCATION", os.path.normpath(kiosk_location_log_file))
         set_key(env_file, "SERVER_URL", url_web_service)
+        set_key(env_file, "KIOSK_URL", kiosk_ip)
         set_key(env_file, "POST_PRINTER_STATUS_SECOND_INTERVAL", set_time_send_log)
         QProcess.startDetached(sys.executable, sys.argv)  # เปิดโปรแกรมใหม่
         sys.exit(0)  # ปิดโปรแกรมเก่า
@@ -200,9 +201,6 @@ class Ui_Application(QWidget):  # กำหนดคลาส UI หลัก
     def on_monitoring_selected(self):
         # สลับไปที่หน้าต่างการตรวจสอบ
         self.close()
-        from monitoring import Ui_Monitoring
-        self.new_window = Ui_Monitoring()
-        self.new_window.show()
 
     def on_configuration_selected(self):
         # สลับไปที่หน้าต่างการตั้งค่าคอนฟิก

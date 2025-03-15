@@ -233,13 +233,15 @@ class printerStatus1:
            
     def post(self):
         try:
+            server_url = os.getenv("SERVER_URL")  # ใช้ค่า default ถ้าไม่มีใน env
+            full_url = f"{server_url}/Status"  # เพิ่ม 'Logfile' ต่อท้าย
+
             logger.debug("Posting to status server: {}".format(self.current_status))
-            response = requests.post(os.getenv("SERVER_URL"), json=self.current_status, auth=(os.getenv("USERNAME"), os.getenv("PASSWORD")))
-            
-            # print("json respone ", response,",  logger ", logger,", self.current_status :",self.current_status)
+            response = requests.post(full_url, json=self.current_status, auth=(os.getenv("USERNAME"), os.getenv("PASSWORD")))
+
             logger.debug(response.json())
         except Exception:
-            logger.exception("Posting to status server eror")
+            logger.exception("Posting to status server error")
 
     def get_status(self):
         return self.current_status
@@ -276,9 +278,9 @@ class printerStatus1:
         # ตรวจสอบว่าโฟลเดอร์ "Status" และ "timestampfolder" มีอยู่หรือไม่ ถ้าไม่ให้สร้าง
         try:
             os.makedirs(folder_path, exist_ok=True)  # สร้างโฟลเดอร์หากไม่มี
-            print("Folder created successfully.")
+            #print("Folder created successfully.")
         except Exception as e:
-            print(f"Error creating folder: {e}")
+            #print(f"Error creating folder: {e}")
             return  # หยุดทำงานถ้าสร้างโฟลเดอร์ไม่ได้
 
         # บันทึกข้อมูลลงในไฟล์
@@ -293,13 +295,13 @@ class printerStatus1:
                     # กลับไปเขียนไฟล์ด้วยข้อมูลใหม่
                     json_file.seek(0)
                     json.dump(existing_data, json_file, indent=4, ensure_ascii=False)
-                print("Data added to existing file.")
+                #print("Data added to existing file.")
             else:
                 # ถ้าไม่มีไฟล์ ให้สร้างไฟล์ใหม่
                 with open(file_path, "w", encoding="utf-8") as json_file:
                     # บันทึกข้อมูลใหม่ในไฟล์
                     json.dump([self.current_status], json_file, indent=4, ensure_ascii=False)
-                print("New file created and data saved.")
+                #print("New file created and data saved.")
         except Exception as e:
             print(f"Error saving file: {e}")
 # 1st byte: 18 - offline

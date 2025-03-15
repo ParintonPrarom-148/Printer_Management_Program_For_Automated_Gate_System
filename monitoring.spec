@@ -8,7 +8,12 @@ a = Analysis(['monitoring.py'],
              datas=[('Icon/hutchisonport_logo.ico', 'Icon'),
                     ('Icon/MenuIcon.ico', 'Icon'),
                     ('python_printer_status/*', 'python_printer_status'),
-                    ('Designer/*.ui', 'Designer')], 
+                    ('Designer/*.ui', 'Designer'),
+                    ('sumatra/SumatraPDF.exe', 'sumatra'),
+                    ('sumatra/libmupdf.dll', 'sumatra'),
+                    ('sumatra/PdfFilter.dll', 'sumatra'),
+                    ('sumatra/PdfPreview.dll', 'sumatra'),
+                    ('sumatra/SumatraPDF-settings.txt', 'sumatra')],
     hiddenimports=['schedule', 'requests'], 
     hookspath=[],
     hooksconfig={},
@@ -17,6 +22,7 @@ a = Analysis(['monitoring.py'],
     noarchive=False,
     optimize=0,
 )
+
 pyz = PYZ(a.pure)
 
 exe = EXE(
@@ -24,7 +30,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='Printer Management Program For Automated Gate System',
+    name='Printer_Management_Program_For_Automated_Gate_System',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

@@ -97,15 +97,6 @@
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="textPrinterModel1">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-       </font>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="2">
      <widget class="QLineEdit" name="textPrinterModel2">
       <property name="font">
@@ -115,23 +106,23 @@
       </property>
      </widget>
     </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="lbServerURL">
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="textPrinterModel1">
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
        </font>
-      </property>
-      <property name="text">
-       <string>ServerURL :</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="textServerURL1">
+    <item row="0" column="2">
+     <widget class="QComboBox" name="cbPrinterModel2"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="cbPrinterModel1"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="textSetting1">
       <property name="font">
        <font>
         <family>Arial</family>
@@ -140,48 +131,6 @@
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QLabel" name="lbLocationFilePrinter">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>LocationFilePrinter :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
-     <widget class="QLineEdit" name="textServerURL2">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-       </font>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="textLocationFilePrinter1">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-       </font>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QLineEdit" name="textLocationFilePrinter2">
-      <property name="font">
-       <font>
-        <family>Arial</family>
-       </font>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
      <widget class="QLabel" name="lbSetting">
       <property name="font">
        <font>
@@ -196,7 +145,7 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="2">
+    <item row="3" column="2">
      <widget class="QLineEdit" name="textSetting2">
       <property name="font">
        <font>
@@ -220,8 +169,8 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="1">
-     <widget class="QLineEdit" name="textSetting1">
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="textLocationFilePrinter2">
       <property name="font">
        <font>
         <family>Arial</family>
@@ -229,11 +178,29 @@
       </property>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QComboBox" name="cbPrinterModel1"/>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lbLocationFilePrinter">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LocationFilePrinter :</string>
+      </property>
+     </widget>
     </item>
-    <item row="0" column="2">
-     <widget class="QComboBox" name="cbPrinterModel2"/>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="textLocationFilePrinter1">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -241,7 +208,7 @@
    <property name="geometry">
     <rect>
      <x>1200</x>
-     <y>680</y>
+     <y>60</y>
      <width>71</width>
      <height>31</height>
     </rect>

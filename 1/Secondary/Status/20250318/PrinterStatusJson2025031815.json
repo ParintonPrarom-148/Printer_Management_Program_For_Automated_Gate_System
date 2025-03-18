@@ -1,0 +1,5332 @@
+[
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:01:05.965"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:01:05.990"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:08.489"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:08.517"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:26.862"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:26.877"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:45.093"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:02:45.125"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:03:03.397"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:03:03.401"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:03:04.857"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:03:04.886"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:13.974"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:14.003"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:32.306"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:32.310"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:50.547"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:07:50.579"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:08:08.811"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:08:08.852"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:09:59.642"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:09:59.659"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:13:47.615"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:13:47.643"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:24.626"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:24.650"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:42.984"
+    },
+    {
+        "location": "1",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:43.012"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:59.059"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:14:59.102"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:15:33.398"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:15:33.424"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:15:58.795"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:15:58.822"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:17.156"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:17.160"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:35.566"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:35.578"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:53.975"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:16:53.992"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:12.421"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:12.434"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:26.761"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:26.749"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:45.153"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper near-end",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:17:45.168"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:18:03.566"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "paper out",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:18:03.577"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:18:21.993"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:18:21.996"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:18:40.462"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:18:58.878"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:18:58.893"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:19:13.211"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:19:13.216"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:19:31.562"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:19:49.796"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:19:49.812"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "available",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "online",
+        "paperEndStatus": "normal",
+        "paperJamStatus": "normal",
+        "timestamp": "2025-03-18 15:20:08.076"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:20:22.373"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:20:40.814"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:20:40.830"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:20:59.183"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:17.638"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:17.653"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:35.955"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:35.971"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:50.225"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:21:50.240"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:08.620"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:08.635"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:26.976"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:26.995"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:45.349"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:22:59.641"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:23:18.046"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:23:36.480"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:23:47.819"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:23:48.779"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:33:45.071"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:33:45.113"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:03.516"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:03.532"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:21.949"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:21.965"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:40.358"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:40.374"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:54.721"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:34:54.726"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:13.153"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:13.148"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:31.519"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:31.537"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:49.905"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:35:49.935"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:04.182"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:04.214"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:22.618"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:22.651"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:41.008"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:41.040"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:59.415"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:36:59.459"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:37:13.665"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:37:13.723"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:37:31.977"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:37:32.035"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:38:49.037"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:38:58.187"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:39:03.249"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.17.64.1",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:39:07.376"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:23.874"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:23.928"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:25.914"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:26.051"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:27.936"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:28.068"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:29.958"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:30.090"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:31.981"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:32.108"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:33.999"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:34.129"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:36.019"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:36.148"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:38.113"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:38.170"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:40.141"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:40.261"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:42.161"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:42.285"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:44.185"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:44.307"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:54.621"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:54.658"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:56.665"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:56.748"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:58.687"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:42:58.767"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:00.711"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:00.788"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:02.742"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:02.822"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:17.004"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:17.101"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:19.025"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:19.137"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:21.048"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:21.162"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:23.067"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:23.183"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:25.085"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:25.203"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:27.147"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:27.225"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:29.202"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:29.250"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:31.227"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:31.275"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:33.248"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:33.295"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:35.268"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:35.316"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:37.307"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:37.337"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:39.357"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:41.380"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:41.380"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:43.405"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:45.428"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:45.428"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:47.482"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:49.532"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:51.556"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:51.556"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:53.579"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:55.603"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:55.605"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:57.654"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:59.688"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:43:59.689"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:01.714"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:03.736"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:05.761"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:07.816"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:09.867"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:11.889"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:13.917"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:15.967"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:15.967"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:18.023"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:20.068"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:22.102"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:24.131"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:26.180"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:28.239"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:30.276"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:32.306"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:34.335"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:36.384"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:38.447"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:40.487"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:42.510"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:44.535"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:46.587"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:48.645"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:50.705"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:52.732"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:54.758"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:56.785"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:44:58.837"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:00.884"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:02.908"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:04.938"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:06.978"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:09.036"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:11.084"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:13.113"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:15.141"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:17.181"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:19.227"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:21.268"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:23.300"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:25.328"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:27.369"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:29.446"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:31.482"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:33.510"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:35.538"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:37.567"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:37.565"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:39.593"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:41.638"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:43.674"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:45.700"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:47.733"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:49.785"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:51.820"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:53.849"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:55.879"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:57.930"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:45:59.975"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:02.017"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:04.044"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:06.073"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:08.108"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:10.183"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:12.221"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:14.253"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:16.281"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:18.310"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:20.365"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:22.411"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:24.441"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:26.470"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:28.515"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:30.581"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:32.626"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:34.659"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:36.686"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:38.731"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:40.795"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:42.847"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:44.874"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:46.902"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:48.954"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:51.019"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:53.052"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:55.075"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:57.102"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:46:59.132"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:01.184"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:03.227"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:05.259"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:07.288"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:09.323"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:11.377"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:13.417"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:15.451"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:17.477"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:19.529"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:21.611"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:21.612"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:23.643"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:25.670"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:27.694"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:27.694"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:29.730"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:31.775"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:33.823"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:35.849"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:35.849"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:37.879"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:37.879"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:39.930"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:41.986"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:44.022"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:44.021"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:46.046"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:46.050"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:48.074"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:48.075"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:50.130"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:52.181"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:52.183"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:54.239"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:54.240"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:56.271"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:56.270"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:47:58.301"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:00.352"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:02.412"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:02.411"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:04.446"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:04.452"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:06.476"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:08.504"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:08.503"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:10.564"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:12.592"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:14.619"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:16.661"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:18.699"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:20.740"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:22.818"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:24.862"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:26.883"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:28.913"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:30.966"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:30.967"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:33.013"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:35.059"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:37.095"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:39.131"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:41.181"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:41.182"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:43.248"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:45.287"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:45.288"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:47.318"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:47.318"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:49.350"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:51.376"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:51.376"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:53.464"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:55.503"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:55.506"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:57.531"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:59.556"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:48:59.556"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:01.595"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:03.693"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:05.742"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:07.762"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:09.793"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:11.846"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:13.920"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:15.960"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:17.993"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:20.025"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:22.082"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:24.128"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:26.160"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:28.193"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:30.225"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:32.279"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:34.330"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:36.373"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:38.404"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:40.439"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:42.490"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:44.540"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:46.592"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:48.635"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:50.665"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:52.711"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:54.783"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:56.842"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:49:58.873"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:00.905"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:02.941"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:05.013"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:05.012"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:07.081"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:09.127"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:11.166"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:13.203"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:13.204"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:15.256"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:15.269"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:17.295"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:19.331"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:21.377"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:23.435"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:25.504"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:27.578"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:29.613"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:31.643"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:33.676"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:35.712"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:37.804"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:39.846"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:41.872"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:43.934"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:46.004"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:48.053"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:50.091"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:52.119"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:54.166"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:56.247"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:50:58.295"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:00.338"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:02.377"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:04.418"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:14.588"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:24.741"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:34.929"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:45.100"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:55.246"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:51:55.294"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:05.434"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:15.579"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:15.595"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:25.713"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:25.763"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:29.546"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:29.595"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:31.659"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:31.704"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:33.685"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:33.730"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:35.711"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:35.754"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:35.903"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:35.934"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:37.736"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:37.779"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:46.090"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:46.108"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:56.128"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:56.161"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:56.284"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:52:56.318"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:02.250"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:02.265"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:06.465"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:12.384"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:12.402"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:16.647"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:22.564"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:22.593"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:26.826"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:32.765"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:32.783"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:37.018"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:53:37.035"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:21.317"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:25.436"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:35.582"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:35.643"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:45.768"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:45.846"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:45.863"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:45.883"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:55.944"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:56.007"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:56.039"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:56:56.055"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:06.138"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:06.202"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:06.237"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:16.330"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:16.394"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:16.446"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:26.528"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:26.592"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:26.640"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:36.718"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:36.782"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:36.830"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:36.852"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:46.925"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:47.006"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:47.052"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:47.073"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:57.133"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:57.229"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:57.276"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:57:57.298"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:07.343"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:07.439"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:07.487"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:07.507"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:17.569"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:17.648"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:17.713"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:17.734"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:27.787"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:27.866"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:27.930"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:27.948"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:38.020"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:38.067"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:38.147"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:38.168"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:48.248"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:48.278"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:48.376"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:48.391"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:58.479"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:58.500"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:58:58.607"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:08.694"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:08.711"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:08.821"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:08.843"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:18.901"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:18.917"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:19.029"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:19.051"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:29.104"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:29.127"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:29.232"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:29.250"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:39.300"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:39.323"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:39.427"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:39.442"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:49.472"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:49.502"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:49.616"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:59.662"
+    },
+    {
+        "location": "D1GH01",
+        "printerId": "FTP-639",
+        "printerStatus": "unavailable",
+        "senderIp": "172.20.10.11",
+        "onlineStatus": "offline",
+        "paperEndStatus": "None",
+        "paperJamStatus": "None",
+        "timestamp": "2025-03-18 15:59:59.822"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "Timestamp": "2025-03-18 14:21:54.824",
+        "Location": "1",
+        "PrinterModel": "Both printers are unavailable!",
+        "Document": "CMS_GENERAL_CNTR.pdf",
+        "DocumentStatus": "Failed",
+        "PrinterStatus": "unavailable",
+        "OnlineStatus": "offline",
+        "PaperEndStatus": "None",
+        "PaperJamStatus": "None",
+        "Error": "Printer is offline"
+    },
+    {
+        "Timestamp": "2025-03-18 14:55:44.501",
+        "Location": "1",
+        "PrinterModel": null,
+        "Document": "CMS_GENERAL_CNTR.pdf",
+        "DocumentStatus": "Failed",
+        "PrinterStatus": "unavailable",
+        "OnlineStatus": "offline",
+        "PaperEndStatus": "None",
+        "PaperJamStatus": "None",
+        "Error": "Printer is offline"
+    }
+]

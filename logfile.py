@@ -54,33 +54,28 @@ class Ui_LogFile(QWidget):
                 except ValueError:
                     return
 
-                log_content = ""
+            # สร้าง list สำหรับเก็บข้อมูลในตาราง
+            log_content = ""
 
-                # หัวตาราง (Header) สำหรับแสดงข้อมูล log
-                header = (f"{'timestamp'.ljust(25)} | {'Location'.ljust(10)} | {'PrinterModel'.ljust(20)} | {'Document'.ljust(25)} | "
-                        f"{'DocumentStatus'.ljust(12)} | {'printerStatus'.ljust(12)} | {'onlineStatus'.ljust(10)} | "
-                        f"{'paperEndStatus'.ljust(12)} | {'paperJamStatus'.ljust(12)}\n")
-                log_content += header
-                log_content += "-" * len(header) + "\n"  # ขีดเส้นแบ่ง Header
+            # Loop ผ่านข้อมูล log และแสดงข้อมูลในรูปแบบที่อ่านง่าย
+            for entry in data:
+                time_str = entry.get('Timestamp', 'No Time')
+                location = entry.get('Location', 'No Location')
+                printer_model = entry.get('PrinterModel', 'Unknown')
+                document = entry.get('Document', 'No Document')
+                document_status = entry.get('DocumentStatus', 'Unknown')
+                printer_status = entry.get('PrinterStatus', 'Unknown')
+                online_status = entry.get('OnlineStatus', 'Unknown')
+                paper_end_status = entry.get('PaperEndStatus', 'Unknown')
+                paper_jam_status = entry.get('PaperJamStatus', 'Unknown')
+                error_msg = entry.get('Error', '-')
 
-                # Loop ผ่านข้อมูล log และแสดงข้อมูลในรูปแบบที่อ่านง่าย
-                for entry in data:
-                    time_str = entry.get('timestamp', 'No Time')
-                    location = entry.get('Location', 'No Location')
-                    printer_model = entry.get('PrinterModel', 'Unknown')
-                    document = entry.get('Document', 'No Document')
-                    document_status = entry.get('DocumentStatus', 'Unknown')
-                    printer_status = entry.get('printerStatus', 'Unknown')
-                    online_status = entry.get('onlineStatus', 'Unknown')
-                    paper_end_status = entry.get('paperEndStatus', 'Unknown')
-                    paper_jam_status = entry.get('paperJamStatus', 'Unknown')
+                log_content += (f"{time_str} | {location} | {printer_model} | {document} | "
+                                f"{document_status} | {printer_status} | {online_status} | "
+                                f"{paper_end_status} | {paper_jam_status} | {error_msg}\n")
 
-                    log_content += (f"{time_str.ljust(25)} | {location.ljust(10)} | {printer_model.ljust(20)} | {document.ljust(25)} | "
-                                    f"{document_status.ljust(12)} | {printer_status.ljust(12)} | {online_status.ljust(10)} | "
-                                    f"{paper_end_status.ljust(12)} | {paper_jam_status.ljust(12)}\n")
-
-                # แสดงข้อมูล log ใน QTextEdit
-                self.textLogfile.setText(log_content)
+            # แสดงข้อมูล log ใน QTextEdit
+            self.textLogfile.setText(log_content)
 
         except json.JSONDecodeError:
             print("❌ เกิดข้อผิดพลาดในการอ่านไฟล์ JSON (ไฟล์อาจไม่ใช่ JSON ที่ถูกต้อง)")

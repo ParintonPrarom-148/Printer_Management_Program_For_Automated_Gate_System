@@ -70,9 +70,8 @@ class Ui_Configuration(QWidget):
 
                 # ตั้งค่าให้กับ QLineEdit
                 textPrinterModel1 = self.findChild(QLineEdit, 'textPrinterModel1')
-                textServerURL1 = self.findChild(QLineEdit, 'textServerURL1')
+
                 textPrinterModel2 = self.findChild(QLineEdit, 'textPrinterModel2')
-                textServerURL2 = self.findChild(QLineEdit, 'textServerURL2')
 
                 textSetting1 = self.findChild(QLineEdit, 'textSetting1')
                 textSetting2 = self.findChild(QLineEdit, 'textSetting2')
@@ -82,10 +81,9 @@ class Ui_Configuration(QWidget):
                 
                 # ตั้งค่าจาก JSON สำหรับ QLineEdit
                 textPrinterModel1.setText(printer_setup_1.get('PrinterModel', ''))
-                textServerURL1.setText(printer_setup_1.get('ServerURL', ''))
                 
                 textPrinterModel2.setText(printer_setup_2.get('PrinterModel', ''))
-                textServerURL2.setText(printer_setup_2.get('ServerURL', ''))
+
 
                 textSetting1.setText(printer_setup_1.get('Setting', ''))
                 textSetting2.setText(printer_setup_2.get('Setting', ''))

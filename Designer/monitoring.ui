@@ -65,7 +65,7 @@
      <x>0</x>
      <y>230</y>
      <width>1281</width>
-     <height>491</height>
+     <height>501</height>
     </rect>
    </property>
    <property name="font">
@@ -81,9 +81,9 @@
     <widget class="QTableWidget" name="tableLogPrimary">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>210</x>
        <y>20</y>
-       <width>921</width>
+       <width>861</width>
        <height>401</height>
       </rect>
      </property>
@@ -138,8 +138,8 @@
     <widget class="QPushButton" name="btnLogFilePrimary">
      <property name="geometry">
       <rect>
-       <x>1200</x>
-       <y>450</y>
+       <x>1150</x>
+       <y>390</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -165,9 +165,9 @@ color:white;</string>
     <widget class="QTableWidget" name="tableLogSecondary">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>210</x>
        <y>20</y>
-       <width>921</width>
+       <width>861</width>
        <height>401</height>
       </rect>
      </property>
@@ -234,8 +234,8 @@ color:white;</string>
     <widget class="QPushButton" name="btnLogFileSecondary">
      <property name="geometry">
       <rect>
-       <x>1200</x>
-       <y>450</y>
+       <x>1150</x>
+       <y>390</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -349,7 +349,7 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowSecondaryTable">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>280</x>
      <y>230</y>
      <width>75</width>
      <height>23</height>
@@ -391,7 +391,7 @@ color:white;</string>
   <widget class="QPushButton" name="btnShowPrimaryTable">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>210</x>
      <y>230</y>
      <width>75</width>
      <height>23</height>

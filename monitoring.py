@@ -14,6 +14,7 @@ from datetime import datetime
 from urllib.parse import urlparse
 import logging
 import requests
+
 # กำหนดเส้นทางไฟล์ .ui และไฟล์ Python
 ui_file = os.path.join(os.path.dirname(__file__), 'Designer', 'monitoring.ui')
 printer_status_path = os.path.join(os.path.dirname(__file__), "python_printer_status")
@@ -83,6 +84,7 @@ class Ui_Monitoring(QWidget):
         self.is_using_secondary = False
         self.init_timer()
         self.update_location_label()
+        self.show_primary_table()
         return True
 
 
@@ -160,39 +162,42 @@ class Ui_Monitoring(QWidget):
 
     def update_status(self):
         """อัปเดตสถานะของเครื่องพิมพ์"""
-        primary_status = self.primary_printer.get_status()
-        secondary_status = self.secondary_printer.get_status()
+        self.primary_status = self.primary_printer.get_status()
+        self.secondary_status = self.secondary_printer.get_status()
 
-        if primary_status["printerStatus"] == "unavailable" and secondary_status["printerStatus"] == "unavailable":
+        if self.primary_status["printerStatus"] == "unavailable" and self.secondary_status["printerStatus"] == "unavailable":
             self.lb_information.setText("⛔ Both primary and secondary printers are unavailable...")
             return
-        if primary_status["printerStatus"] == "available" and not self.is_using_secondary:
+        if self.primary_status["printerStatus"] == "available" and not self.is_using_secondary:
             self.lb_information.setText("✅ Using the primary printer")
             self.is_using_secondary = False
-            self.load_table('Primary')
-            self.update_printer_model_label('Primary')
 
-        if secondary_status["printerStatus"] == "available" and self.is_using_secondary:
+        if self.secondary_status["printerStatus"] == "available" and self.is_using_secondary:
             self.lb_information.setText("✅ Using the secondary printer")
-            self.load_table('Secondary')
-            self.update_printer_model_label('Secondary')
 
-        if primary_status["printerStatus"] == "unavailable" and not self.is_using_secondary:
+        if self.primary_status["printerStatus"] == "unavailable" and not self.is_using_secondary:
             self.lb_information.setText("⚠️ Primary printer is unavailable, switching to the secondary printer")
             self.current_printer = self.secondary_printer
             self.is_using_secondary = True
 
-        if primary_status["printerStatus"] == "available" and self.is_using_secondary:
+        if self.primary_status["printerStatus"] == "available" and self.is_using_secondary:
             self.lb_information.setText("✅ Primary printer is back online, switching back to the primary printer")
             self.current_printer = self.primary_printer
             self.is_using_secondary = False
 
-        status = self.current_printer.get_status()
-
+        
+        
+    def show_status(self,setting):
+        if setting == "Primary":
+            status = self.primary_printer.get_status()
+        else:
+            status = self.secondary_printer.get_status()
         self.PrinterStatus.setText(f"{status['printerStatus']}\n")
         self.OnlineStatus.setText(f"{status['onlineStatus']}\n")
         self.PaperEndStatus.setText(f"{status['paperEndStatus']}\n")
         self.PaperJamStatus.setText(f"{status['paperJamStatus']}\n")
+         
+
 
     def go_to_logfile(self, setting):
         """เปิดไฟล์ LogFile"""
@@ -236,6 +241,8 @@ class Ui_Monitoring(QWidget):
         """แสดงตารางเครื่องพิมพ์หลัก"""
         self.current_selected_printer = "Primary"
         self.load_table('Primary')
+        self.show_status('Primary')
+        self.update_printer_model_label('Primary')
         self.stackedWidget.setCurrentIndex(0)
         self.btnLogFilePrimary.show()
         self.btnLogFileSecondary.hide()
@@ -244,6 +251,8 @@ class Ui_Monitoring(QWidget):
         """แสดงตารางเครื่องพิมพ์สำรอง"""
         self.current_selected_printer = "Secondary"
         self.load_table('Secondary')
+        self.show_status('Secondary')
+        self.update_printer_model_label('Secondary')
         self.stackedWidget.setCurrentIndex(1)
         self.btnLogFilePrimary.hide()
         self.btnLogFileSecondary.show()
@@ -273,7 +282,7 @@ class Ui_Monitoring(QWidget):
                     table = self.tableLogPrimary if setting == 'Primary' else self.tableLogSecondary
 
                     # กำหนดคอลัมน์ที่ต้องการแสดง
-                    columns = ['timestamp', 'Location', 'PrinterModel', 'Document', 'DocumentStatus', 'printerStatus', 'onlineStatus','paperEndStatus','paperJamStatus']
+                    columns = ['Timestamp', 'Document', 'DocumentStatus', 'PrinterStatus', 'OnlineStatus','PaperEndStatus','PaperJamStatus','Error']
                     table.setRowCount(len(data))
                     table.setColumnCount(len(columns))
                     table.setHorizontalHeaderLabels(columns)
@@ -315,7 +324,7 @@ class Ui_Monitoring(QWidget):
         try:
             sumatra_path = self.get_sumatra_path()
             printer_name = self.get_available_printer()
-            if not printer_name or printer_name == "No available printer found":
+            if printer_name == "No available printer found":
                 raise Exception("No available printer found.")
 
             command = f'"{sumatra_path}" -print-to "{printer_name}" "{pdf_path}"'
@@ -342,26 +351,24 @@ class Ui_Monitoring(QWidget):
 
     def get_available_printer(self):
         """ตรวจสอบสถานะเครื่องพิมพ์และเลือกเครื่องที่สามารถใช้งานได้"""
-        primary_status = self.primary_printer.get_status()
-        secondary_status = self.secondary_printer.get_status()
 
-        if primary_status.get("printerStatus") == "available":
-            self.current_printerStatus =primary_status.get("printerStatus")
-            self.current_onlineStatus =primary_status.get("onlineStatus")
-            self.current_paperEndStatus =primary_status.get("paperEndStatus")
-            self.current_paperJamStatus =primary_status.get("paperJamStatus")
+        if self.primary_status.get("printerStatus") == "available":
+            self.current_printerStatus =self.primary_status.get("printerStatus")
+            self.current_onlineStatus =self.primary_status.get("onlineStatus")
+            self.current_paperEndStatus =self.primary_status.get("paperEndStatus")
+            self.current_paperJamStatus =self.primary_status.get("paperJamStatus")
             return self.primary_model
-        elif secondary_status.get("printerStatus") == "available":
-            self.current_printerStatus =secondary_status.get("printerStatus")
-            self.current_onlineStatus =secondary_status.get("onlineStatus")
-            self.current_paperEndStatus =secondary_status.get("paperEndStatus")
-            self.current_paperJamStatus =secondary_status.get("paperJamStatus")
+        elif self.secondary_status.get("printerStatus") == "available":
+            self.current_printerStatus =self.secondary_status.get("printerStatus")
+            self.current_onlineStatus =self.secondary_status.get("onlineStatus")
+            self.current_paperEndStatus =self.secondary_status.get("paperEndStatus")
+            self.current_paperJamStatus ="paper jam"
             return self.secondary_model
         self.current_printerStatus = "unavailable"
         self.current_onlineStatus = "offline"
         self.current_paperEndStatus = "None"
         self.current_paperJamStatus = "None"
-        return "No available printer found"
+        return "Both printers are unavailable!"
 
     async def upload_pdf(self, file: UploadFile = File(...)):
         file_path = os.path.join(self.save_path, file.filename)
@@ -420,17 +427,26 @@ class Ui_Monitoring(QWidget):
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
             timestamp_folder = datetime.now().strftime("%Y%m%d")
             timestamp_file = datetime.now().strftime("%Y%m%d%H")
+            if self.current_onlineStatus == "offline": 
+                error = "Printer is offline"
+            elif self.current_paperEndStatus == "paper end":
+                error = "Printer is out of paper"
+            elif self.current_paperJamStatus == "paper jam":
+                error = "Printer has a paper jam"
+            else:
+                error = "-"
 
             log_entry = {
-                "timestamp": timestamp,
+                "Timestamp": timestamp,
                 "Location": location, 
                 "PrinterModel": target_model,
                 "Document": os.path.basename(document_name),
                 "DocumentStatus": print_status,
-                "printerStatus": self.current_printerStatus,
-                "onlineStatus": self.current_onlineStatus,
-                "paperEndStatus": self.current_paperEndStatus,
-                "paperJamStatus": self.current_paperJamStatus
+                "PrinterStatus": self.current_printerStatus,
+                "OnlineStatus": self.current_onlineStatus,
+                "PaperEndStatus": self.current_paperEndStatus,
+                "PaperJamStatus": self.current_paperJamStatus,
+                "Error": error
             }
 
             for printer_location in printer_locations:
@@ -489,10 +505,11 @@ class Ui_Monitoring(QWidget):
 
 # FastAPI Endpoint
 app_qt = QApplication([])
-pdf_printer = Ui_Monitoring()
 
+pdf_printer = Ui_Monitoring()
 @app.post("/upload-pdf/")
 async def upload_pdf(file: UploadFile = File(...)):
+    
     return await pdf_printer.upload_pdf(file)
 
 def run_fastapi():
